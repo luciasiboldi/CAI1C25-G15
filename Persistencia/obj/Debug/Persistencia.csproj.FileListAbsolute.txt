@@ -1,0 +1,12 @@
+C:\Users\Nacho\Downloads\TPIntegradorCorto-master\TPIntegradorCorto-master\TemplateTPCorto\Persistencia\bin\Debug\Persistencia.dll
+C:\Users\Nacho\Downloads\TPIntegradorCorto-master\TPIntegradorCorto-master\TemplateTPCorto\Persistencia\bin\Debug\Persistencia.pdb
+C:\Users\Nacho\Downloads\TPIntegradorCorto-master\TPIntegradorCorto-master\TemplateTPCorto\Persistencia\bin\Debug\Datos.dll
+C:\Users\Nacho\Downloads\TPIntegradorCorto-master\TPIntegradorCorto-master\TemplateTPCorto\Persistencia\bin\Debug\Datos.pdb
+C:\Users\Nacho\Downloads\TPIntegradorCorto-master\TPIntegradorCorto-master\TemplateTPCorto\Persistencia\obj\Debug\Persistencia.csproj.AssemblyReference.cache
+C:\Users\Nacho\Downloads\TPIntegradorCorto-master\TPIntegradorCorto-master\TemplateTPCorto\Persistencia\obj\Debug\Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\Nacho\Downloads\TPIntegradorCorto-master\TPIntegradorCorto-master\TemplateTPCorto\Persistencia\obj\Debug\Persiste.7F7D6998.Up2Date
+C:\Users\Nacho\Downloads\TPIntegradorCorto-master\TPIntegradorCorto-master\TemplateTPCorto\Persistencia\obj\Debug\Persistencia.dll
+C:\Users\Nacho\Downloads\TPIntegradorCorto-master\TPIntegradorCorto-master\TemplateTPCorto\Persistencia\obj\Debug\Persistencia.pdb
+C:\Users\Nacho\Downloads\TPIntegradorCorto-master\TPIntegradorCorto-master\TemplateTPCorto\Persistencia\bin\Debug\DataBase\Tablas\credenciales.csv
+C:\Users\Nacho\Downloads\TPIntegradorCorto-master\TPIntegradorCorto-master\TemplateTPCorto\Persistencia\bin\Debug\DataBase\Tablas\login_intentos.csv
+C:\Users\Nacho\Downloads\TPIntegradorCorto-master\TPIntegradorCorto-master\TemplateTPCorto\Persistencia\bin\Debug\DataBase\Tablas\usuario_bloqueado.csv

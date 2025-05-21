@@ -1,0 +1,14 @@
+C:\Users\Nacho\Downloads\TPIntegradorCorto-master\TPIntegradorCorto-master\TemplateTPCorto\Negocio\bin\Debug\Negocio.dll
+C:\Users\Nacho\Downloads\TPIntegradorCorto-master\TPIntegradorCorto-master\TemplateTPCorto\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Nacho\Downloads\TPIntegradorCorto-master\TPIntegradorCorto-master\TemplateTPCorto\Negocio\bin\Debug\Datos.dll
+C:\Users\Nacho\Downloads\TPIntegradorCorto-master\TPIntegradorCorto-master\TemplateTPCorto\Negocio\bin\Debug\Persistencia.dll
+C:\Users\Nacho\Downloads\TPIntegradorCorto-master\TPIntegradorCorto-master\TemplateTPCorto\Negocio\bin\Debug\Datos.pdb
+C:\Users\Nacho\Downloads\TPIntegradorCorto-master\TPIntegradorCorto-master\TemplateTPCorto\Negocio\bin\Debug\Persistencia.pdb
+C:\Users\Nacho\Downloads\TPIntegradorCorto-master\TPIntegradorCorto-master\TemplateTPCorto\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\Nacho\Downloads\TPIntegradorCorto-master\TPIntegradorCorto-master\TemplateTPCorto\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Nacho\Downloads\TPIntegradorCorto-master\TPIntegradorCorto-master\TemplateTPCorto\Negocio\obj\Debug\Negocio.csproj.Up2Date
+C:\Users\Nacho\Downloads\TPIntegradorCorto-master\TPIntegradorCorto-master\TemplateTPCorto\Negocio\obj\Debug\Negocio.dll
+C:\Users\Nacho\Downloads\TPIntegradorCorto-master\TPIntegradorCorto-master\TemplateTPCorto\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Nacho\Downloads\TPIntegradorCorto-master\TPIntegradorCorto-master\TemplateTPCorto\Negocio\bin\Debug\DataBase\Tablas\credenciales.csv
+C:\Users\Nacho\Downloads\TPIntegradorCorto-master\TPIntegradorCorto-master\TemplateTPCorto\Negocio\bin\Debug\DataBase\Tablas\login_intentos.csv
+C:\Users\Nacho\Downloads\TPIntegradorCorto-master\TPIntegradorCorto-master\TemplateTPCorto\Negocio\bin\Debug\DataBase\Tablas\usuario_bloqueado.csv
