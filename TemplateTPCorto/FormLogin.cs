@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
-using Negocio;
-using Persistencia;
-using Datos;
-
+using Negocio;  // LoginNegocio y PasswordService
 
 namespace TemplateTPCorto
 {
@@ -27,10 +24,10 @@ namespace TemplateTPCorto
                 // 1) Autenticar
                 _loginNeg.Autenticar(usuario, password);
 
-                // 2) Si necesita cambiar (primer login o expiró):
+                // 2) Forzar cambio si corresponde
                 if (_pwdSvc.NecesitaCambiar(usuario))
                 {
-                    // ← Nueva alerta antes de abrir el form
+                    // → Alerta previa
                     MessageBox.Show(
                         "Su contraseña ha vencido. Por favor, cambie la contraseña.",
                         "Contraseña expirada",
@@ -40,8 +37,7 @@ namespace TemplateTPCorto
 
                     using (var changeForm = new ChangePasswordForm())
                     {
-                        var dr = changeForm.ShowDialog();
-                        if (dr != DialogResult.OK)
+                        if (changeForm.ShowDialog() != DialogResult.OK)
                         {
                             MessageBox.Show(
                                 "Debe cambiar su contraseña para continuar.",
@@ -62,7 +58,10 @@ namespace TemplateTPCorto
                     MessageBoxIcon.Information
                 );
 
-                // ... abrir tu FormPrincipal, etc.
+                // → Aquí podrías abrir tu FormPrincipal:
+                // var mainForm = new FormPrincipal(usuario);
+                // this.Hide();
+                // mainForm.Show();
             }
             catch (Exception ex)
             {
@@ -75,10 +74,8 @@ namespace TemplateTPCorto
             }
         }
 
-
         private void btnCambiarPassword_Click(object sender, EventArgs e)
         {
-            // Abre siempre el form, que allí pide usuario y passwords
             using (var changeForm = new ChangePasswordForm())
             {
                 changeForm.ShowDialog();

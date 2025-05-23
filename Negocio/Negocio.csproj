@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="LoginNegocio.cs" />
     <Compile Include="PasswordService.cs" />
+    <Compile Include="ProfileService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
