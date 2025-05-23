@@ -1,12 +1,16 @@
 ﻿using System;
 using System.Windows.Forms;
-using Negocio;    // LoginNegocio
+using Negocio;
+using Persistencia;
+using Datos;
+
 
 namespace TemplateTPCorto
 {
     public partial class FormLogin : Form
     {
         private readonly LoginNegocio _loginNeg = new LoginNegocio();
+        private readonly PasswordService _pwdSvc = new PasswordService();
 
         public FormLogin()
         {
@@ -20,25 +24,64 @@ namespace TemplateTPCorto
 
             try
             {
-                // Si no lanza excepción, las credenciales son correctas
+                // 1) Autenticar
                 _loginNeg.Autenticar(usuario, password);
 
+                // 2) Si necesita cambiar (primer login o expiró):
+                if (_pwdSvc.NecesitaCambiar(usuario))
+                {
+                    // ← Nueva alerta antes de abrir el form
+                    MessageBox.Show(
+                        "Su contraseña ha vencido. Por favor, cambie la contraseña.",
+                        "Contraseña expirada",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Warning
+                    );
+
+                    using (var changeForm = new ChangePasswordForm())
+                    {
+                        var dr = changeForm.ShowDialog();
+                        if (dr != DialogResult.OK)
+                        {
+                            MessageBox.Show(
+                                "Debe cambiar su contraseña para continuar.",
+                                "Atención",
+                                MessageBoxButtons.OK,
+                                MessageBoxIcon.Warning
+                            );
+                            return;
+                        }
+                    }
+                }
+
+                // 3) Login exitoso
                 MessageBox.Show(
                     "Ingreso exitoso",
                     "Éxito",
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Information
                 );
+
+                // ... abrir tu FormPrincipal, etc.
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                // Cualquier fallo (usuario no existe, contraseña mal, bloqueado…)
                 MessageBox.Show(
-                    "Usuario o contraseña incorrecto",
+                    ex.Message,
                     "Error de autenticación",
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Warning
                 );
+            }
+        }
+
+
+        private void btnCambiarPassword_Click(object sender, EventArgs e)
+        {
+            // Abre siempre el form, que allí pide usuario y passwords
+            using (var changeForm = new ChangePasswordForm())
+            {
+                changeForm.ShowDialog();
             }
         }
     }

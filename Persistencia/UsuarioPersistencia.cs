@@ -21,9 +21,15 @@ namespace Persistencia
         {
             var ruta = Ruta(file);
             if (!File.Exists(ruta)) return Enumerable.Empty<string>();
-            return File.ReadAllLines(ruta)
-                       .Skip(1)                                // salta header
-                       .Where(l => !string.IsNullOrWhiteSpace(l));
+
+            var todas = File.ReadAllLines(ruta)
+                            .Where(l => !string.IsNullOrWhiteSpace(l));
+
+            // Solo la credenciales tiene cabecera:
+            if (file.Equals(CredencialesCsv, StringComparison.OrdinalIgnoreCase))
+                return todas.Skip(1);
+
+            return todas;
         }
 
         private void AgregarLinea(string file, string linea)
@@ -34,10 +40,10 @@ namespace Persistencia
 
         public Credencial ObtenerCredencial(string usuario)
         {
-            var fila = LeerTodas(CredencialesCsv)
-                      .Select(l => new Credencial(l))
-                      .FirstOrDefault(c => c.NombreUsuario.Equals(usuario, StringComparison.OrdinalIgnoreCase));
-            return fila;
+            return LeerTodas(CredencialesCsv)
+                  .Select(l => new Credencial(l))
+                  .FirstOrDefault(c => c.NombreUsuario
+                        .Equals(usuario, StringComparison.OrdinalIgnoreCase));
         }
 
         public bool EsUsuarioBloqueado(string legajo)
@@ -58,5 +64,28 @@ namespace Persistencia
 
         public void BloquearUsuario(string legajo)
             => AgregarLinea(BloqueadosCsv, legajo);
+
+        public void ActualizarCredencial(string usuario, string nuevaContrasena)
+        {
+            var ruta = Ruta(CredencialesCsv);
+            var lines = File.ReadAllLines(ruta).ToList();
+            if (lines.Count <= 1) return;  // solo cabecera
+
+            for (int i = 1; i < lines.Count; i++)
+            {
+                var cols = lines[i].Split(';');
+                if (cols.Length < 5) continue;
+
+                if (cols[1].Equals(usuario, StringComparison.OrdinalIgnoreCase))
+                {
+                    cols[2] = nuevaContrasena;                        // nueva pass
+                    cols[4] = DateTime.Today.ToString("d/M/yyyy");    // fecha último login
+                    lines[i] = string.Join(";", cols);
+                    break;
+                }
+            }
+
+            File.WriteAllLines(ruta, lines);
+        }
     }
 }

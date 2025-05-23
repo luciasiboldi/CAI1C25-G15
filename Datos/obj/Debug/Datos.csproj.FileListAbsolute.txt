@@ -4,3 +4,9 @@ C:\Users\Nacho\Downloads\TPIntegradorCorto-master\TPIntegradorCorto-master\Templ
 C:\Users\Nacho\Downloads\TPIntegradorCorto-master\TPIntegradorCorto-master\TemplateTPCorto\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
 C:\Users\Nacho\Downloads\TPIntegradorCorto-master\TPIntegradorCorto-master\TemplateTPCorto\Datos\obj\Debug\Datos.dll
 C:\Users\Nacho\Downloads\TPIntegradorCorto-master\TPIntegradorCorto-master\TemplateTPCorto\Datos\obj\Debug\Datos.pdb
+C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Datos\bin\Debug\Datos.dll
+C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Datos\bin\Debug\Datos.pdb
+C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Datos\obj\Debug\Datos.dll
+C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Datos\obj\Debug\Datos.pdb

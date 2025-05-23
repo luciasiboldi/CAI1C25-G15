@@ -1,7 +1,36 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Nacho\\source\\repos\\CAI1C25-G15\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\FormLogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TemplateTPCorto\\FormLogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\FormLogin.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TemplateTPCorto\\FormLogin.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\Negocio\\PasswordService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Negocio\\PasswordService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\Negocio\\LoginNegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Negocio\\LoginNegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\Persistencia\\UsuarioPersistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Persistencia\\UsuarioPersistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\Datos\\Login\\Credencial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Datos\\Login\\Credencial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TemplateTPCorto\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -17,7 +46,110 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormLogin.cs",
+              "DocumentMoniker": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\FormLogin.cs",
+              "RelativeDocumentMoniker": "TemplateTPCorto\\FormLogin.cs",
+              "ToolTip": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\FormLogin.cs",
+              "RelativeToolTip": "TemplateTPCorto\\FormLogin.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T03:00:38.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormLogin.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\FormLogin.Designer.cs",
+              "RelativeDocumentMoniker": "TemplateTPCorto\\FormLogin.Designer.cs",
+              "ToolTip": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\FormLogin.Designer.cs",
+              "RelativeToolTip": "TemplateTPCorto\\FormLogin.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T03:00:21.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PasswordService.cs",
+              "DocumentMoniker": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\Negocio\\PasswordService.cs",
+              "RelativeDocumentMoniker": "Negocio\\PasswordService.cs",
+              "ToolTip": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\Negocio\\PasswordService.cs",
+              "RelativeToolTip": "Negocio\\PasswordService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T03:00:08.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\Negocio\\LoginNegocio.cs",
+              "RelativeDocumentMoniker": "Negocio\\LoginNegocio.cs",
+              "ToolTip": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\Negocio\\LoginNegocio.cs",
+              "RelativeToolTip": "Negocio\\LoginNegocio.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAgwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T02:59:35.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsuarioPersistencia.cs",
+              "DocumentMoniker": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\Persistencia\\UsuarioPersistencia.cs",
+              "RelativeDocumentMoniker": "Persistencia\\UsuarioPersistencia.cs",
+              "ToolTip": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\Persistencia\\UsuarioPersistencia.cs",
+              "RelativeToolTip": "Persistencia\\UsuarioPersistencia.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAFsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T02:59:21.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Credencial.cs",
+              "DocumentMoniker": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\Datos\\Login\\Credencial.cs",
+              "RelativeDocumentMoniker": "Datos\\Login\\Credencial.cs",
+              "ToolTip": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\Datos\\Login\\Credencial.cs",
+              "RelativeToolTip": "Datos\\Login\\Credencial.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAgwBYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T02:58:39.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\Program.cs",
+              "RelativeDocumentMoniker": "TemplateTPCorto\\Program.cs",
+              "ToolTip": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\Program.cs",
+              "RelativeToolTip": "TemplateTPCorto\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T02:48:58.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }
