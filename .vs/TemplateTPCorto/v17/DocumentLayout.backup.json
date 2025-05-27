@@ -1,101 +1,117 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\",
+  "WorkspaceRootPath": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|c:\\users\\tadeo zamora\\source\\repos\\cai1c25-g15\\templatetpcorto\\modifypersonform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\modifypersonform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|c:\\users\\tadeo zamora\\source\\repos\\cai1c25-g15\\templatetpcorto\\modifypersonform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\modifypersonform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|c:\\users\\tadeo zamora\\source\\repos\\cai1c25-g15\\templatetpcorto\\modifypersonform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\modifypersonform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|c:\\users\\tadeo zamora\\source\\repos\\cai1c25-g15\\templatetpcorto\\supervisorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\supervisorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|c:\\users\\tadeo zamora\\source\\repos\\cai1c25-g15\\templatetpcorto\\adminauthorizationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\adminauthorizationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\templatetpcorto\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|c:\\users\\tadeo zamora\\source\\repos\\cai1c25-g15\\templatetpcorto\\supervisorform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\supervisorform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|c:\\users\\tadeo zamora\\source\\repos\\cai1c25-g15\\templatetpcorto\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|c:\\users\\tadeo zamora\\source\\repos\\cai1c25-g15\\templatetpcorto\\adminauthorizationform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\adminauthorizationform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1A65A0D-8346-4FB0-B5E1-28E573A6CAC3}|Negocio\\Negocio.csproj|c:\\users\\tadeo zamora\\source\\repos\\cai1c25-g15\\negocio\\profileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1A65A0D-8346-4FB0-B5E1-28E573A6CAC3}|Negocio\\Negocio.csproj|solutionrelative:negocio\\profileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34CC7902-A146-4647-92C1-E39EBB515403}|Persistencia\\Persistencia.csproj|c:\\users\\tadeo zamora\\source\\repos\\cai1c25-g15\\persistencia\\perfilpersistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{34CC7902-A146-4647-92C1-E39EBB515403}|Persistencia\\Persistencia.csproj|C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\persistencia\\perfilpersistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34CC7902-A146-4647-92C1-E39EBB515403}|Persistencia\\Persistencia.csproj|solutionrelative:persistencia\\perfilpersistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DF50A35-3AEF-461D-90B9-687B77B5746F}|Datos\\Datos.csproj|c:\\users\\tadeo zamora\\source\\repos\\cai1c25-g15\\datos\\perfilrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DF50A35-3AEF-461D-90B9-687B77B5746F}|Datos\\Datos.csproj|solutionrelative:datos\\perfilrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\templatetpcorto\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DF50A35-3AEF-461D-90B9-687B77B5746F}|Datos\\Datos.csproj|c:\\users\\tadeo zamora\\source\\repos\\cai1c25-g15\\datos\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DF50A35-3AEF-461D-90B9-687B77B5746F}|Datos\\Datos.csproj|solutionrelative:datos\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|c:\\users\\rc991fb\\source\\repos\\cai1c25-g15\\templatetpcorto\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DF50A35-3AEF-461D-90B9-687B77B5746F}|Datos\\Datos.csproj|c:\\users\\tadeo zamora\\source\\repos\\cai1c25-g15\\datos\\perfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DF50A35-3AEF-461D-90B9-687B77B5746F}|Datos\\Datos.csproj|solutionrelative:datos\\perfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|c:\\users\\rc991fb\\source\\repos\\cai1c25-g15\\templatetpcorto\\formprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\formprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1A65A0D-8346-4FB0-B5E1-28E573A6CAC3}|Negocio\\Negocio.csproj|C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\negocio\\loginnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\templatetpcorto\\supervisorform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\supervisorform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\templatetpcorto\\supervisorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\supervisorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1A65A0D-8346-4FB0-B5E1-28E573A6CAC3}|Negocio\\Negocio.csproj|C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\negocio\\loginnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1A65A0D-8346-4FB0-B5E1-28E573A6CAC3}|Negocio\\Negocio.csproj|solutionrelative:negocio\\loginnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34CC7902-A146-4647-92C1-E39EBB515403}|Persistencia\\Persistencia.csproj|c:\\users\\tadeo zamora\\source\\repos\\cai1c25-g15\\persistencia\\usuariopersistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34CC7902-A146-4647-92C1-E39EBB515403}|Persistencia\\Persistencia.csproj|solutionrelative:persistencia\\usuariopersistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A1A65A0D-8346-4FB0-B5E1-28E573A6CAC3}|Negocio\\Negocio.csproj|C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\negocio\\profileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1A65A0D-8346-4FB0-B5E1-28E573A6CAC3}|Negocio\\Negocio.csproj|solutionrelative:negocio\\profileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1A65A0D-8346-4FB0-B5E1-28E573A6CAC3}|Negocio\\Negocio.csproj|c:\\users\\tadeo zamora\\source\\repos\\cai1c25-g15\\negocio\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1A65A0D-8346-4FB0-B5E1-28E573A6CAC3}|Negocio\\Negocio.csproj|solutionrelative:negocio\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\templatetpcorto\\adminauthorizationform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\adminauthorizationform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\templatetpcorto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\templatetpcorto\\adminauthorizationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\adminauthorizationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|c:\\users\\tadeo zamora\\source\\repos\\cai1c25-g15\\templatetpcorto\\changepassword.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\changepassword.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|c:\\users\\tadeo zamora\\source\\repos\\cai1c25-g15\\templatetpcorto\\changepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\changepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|c:\\users\\tadeo zamora\\source\\repos\\cai1c25-g15\\templatetpcorto\\changepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\changepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\templatetpcorto\\formlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\templatetpcorto\\formlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\formlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34CC7902-A146-4647-92C1-E39EBB515403}|Persistencia\\Persistencia.csproj|C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\persistencia\\database\\tablas\\credenciales.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\templatetpcorto\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34CC7902-A146-4647-92C1-E39EBB515403}|Persistencia\\Persistencia.csproj|C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\persistencia\\usuariopersistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34CC7902-A146-4647-92C1-E39EBB515403}|Persistencia\\Persistencia.csproj|solutionrelative:persistencia\\usuariopersistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34CC7902-A146-4647-92C1-E39EBB515403}|Persistencia\\Persistencia.csproj|c:\\users\\rc991fb\\source\\repos\\cai1c25-g15\\persistencia\\personapersistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34CC7902-A146-4647-92C1-E39EBB515403}|Persistencia\\Persistencia.csproj|solutionrelative:persistencia\\personapersistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DF50A35-3AEF-461D-90B9-687B77B5746F}|Datos\\Datos.csproj|c:\\users\\rc991fb\\source\\repos\\cai1c25-g15\\datos\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DF50A35-3AEF-461D-90B9-687B77B5746F}|Datos\\Datos.csproj|solutionrelative:datos\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|c:\\users\\rc991fb\\source\\repos\\cai1c25-g15\\templatetpcorto\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|c:\\users\\rc991fb\\source\\repos\\cai1c25-g15\\templatetpcorto\\modifypersonform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\modifypersonform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\templatetpcorto\\modifypersonform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\modifypersonform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DF50A35-3AEF-461D-90B9-687B77B5746F}|Datos\\Datos.csproj|C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\datos\\perfilrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DF50A35-3AEF-461D-90B9-687B77B5746F}|Datos\\Datos.csproj|solutionrelative:datos\\perfilrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DF50A35-3AEF-461D-90B9-687B77B5746F}|Datos\\Datos.csproj|C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\datos\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DF50A35-3AEF-461D-90B9-687B77B5746F}|Datos\\Datos.csproj|solutionrelative:datos\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DF50A35-3AEF-461D-90B9-687B77B5746F}|Datos\\Datos.csproj|C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\datos\\perfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DF50A35-3AEF-461D-90B9-687B77B5746F}|Datos\\Datos.csproj|solutionrelative:datos\\perfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1A65A0D-8346-4FB0-B5E1-28E573A6CAC3}|Negocio\\Negocio.csproj|C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\negocio\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1A65A0D-8346-4FB0-B5E1-28E573A6CAC3}|Negocio\\Negocio.csproj|solutionrelative:negocio\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\templatetpcorto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\templatetpcorto\\changepassword.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\changepassword.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\templatetpcorto\\changepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\changepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\templatetpcorto\\changepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\changepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34CC7902-A146-4647-92C1-E39EBB515403}|Persistencia\\Persistencia.csproj|C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\persistencia\\database\\tablas\\credenciales.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{34CC7902-A146-4647-92C1-E39EBB515403}|Persistencia\\Persistencia.csproj|solutionrelative:persistencia\\database\\tablas\\credenciales.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DF50A35-3AEF-461D-90B9-687B77B5746F}|Datos\\Datos.csproj|C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\datos\\login\\credencial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5DF50A35-3AEF-461D-90B9-687B77B5746F}|Datos\\Datos.csproj|C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\datos\\login\\credencial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5DF50A35-3AEF-461D-90B9-687B77B5746F}|Datos\\Datos.csproj|solutionrelative:datos\\login\\credencial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -106,82 +122,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ModifyPersonForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Tadeo Zamora\\Source\\Repos\\CAI1C25-G15\\TemplateTPCorto\\ModifyPersonForm.Designer.cs",
-              "RelativeDocumentMoniker": "TemplateTPCorto\\ModifyPersonForm.Designer.cs",
-              "ToolTip": "C:\\Users\\Tadeo Zamora\\Source\\Repos\\CAI1C25-G15\\TemplateTPCorto\\ModifyPersonForm.Designer.cs*",
-              "RelativeToolTip": "TemplateTPCorto\\ModifyPersonForm.Designer.cs*",
-              "ViewState": "AgIAABUAAAAAAAAAAAAswC0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T03:44:24.244Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ModifyPersonForm.cs",
-              "DocumentMoniker": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\ModifyPersonForm.cs",
-              "RelativeDocumentMoniker": "TemplateTPCorto\\ModifyPersonForm.cs",
-              "ToolTip": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\ModifyPersonForm.cs*",
-              "RelativeToolTip": "TemplateTPCorto\\ModifyPersonForm.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T03:44:05.315Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ModifyPersonForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\ModifyPersonForm.cs",
-              "RelativeDocumentMoniker": "TemplateTPCorto\\ModifyPersonForm.cs",
-              "ToolTip": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\ModifyPersonForm.cs [Dise\u00F1o]*",
-              "RelativeToolTip": "TemplateTPCorto\\ModifyPersonForm.cs [Dise\u00F1o]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T03:44:01.086Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FormLogin.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\FormLogin.cs",
-              "RelativeDocumentMoniker": "TemplateTPCorto\\FormLogin.cs",
-              "ToolTip": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\FormLogin.cs [Dise\u00F1o]",
-              "RelativeToolTip": "TemplateTPCorto\\FormLogin.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T03:34:28.146Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AdminAuthorizationForm.cs",
-              "DocumentMoniker": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\AdminAuthorizationForm.cs",
-              "RelativeDocumentMoniker": "TemplateTPCorto\\AdminAuthorizationForm.cs",
-              "ToolTip": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\AdminAuthorizationForm.cs",
-              "RelativeToolTip": "TemplateTPCorto\\AdminAuthorizationForm.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowCUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T03:32:33.701Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Bookmark",
@@ -193,26 +146,78 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "FormLogin.cs",
-              "DocumentMoniker": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\FormLogin.cs",
+              "DocumentMoniker": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\TemplateTPCorto\\FormLogin.cs",
               "RelativeDocumentMoniker": "TemplateTPCorto\\FormLogin.cs",
-              "ToolTip": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\FormLogin.cs",
+              "ToolTip": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\TemplateTPCorto\\FormLogin.cs",
               "RelativeToolTip": "TemplateTPCorto\\FormLogin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAmwEkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-20T22:40:41.082Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SupervisorForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\TemplateTPCorto\\SupervisorForm.Designer.cs",
+              "RelativeDocumentMoniker": "TemplateTPCorto\\SupervisorForm.Designer.cs",
+              "ToolTip": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\TemplateTPCorto\\SupervisorForm.Designer.cs",
+              "RelativeToolTip": "TemplateTPCorto\\SupervisorForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T03:31:08.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "FormPrincipal.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\RC991FB\\Source\\Repos\\CAI1C25-G15\\TemplateTPCorto\\FormPrincipal.Designer.cs",
+              "RelativeDocumentMoniker": "TemplateTPCorto\\FormPrincipal.Designer.cs",
+              "ToolTip": "C:\\Users\\RC991FB\\Source\\Repos\\CAI1C25-G15\\TemplateTPCorto\\FormPrincipal.Designer.cs",
+              "RelativeToolTip": "TemplateTPCorto\\FormPrincipal.Designer.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAmwEMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T22:34:39.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\TemplateTPCorto\\FormPrincipal.cs",
+              "RelativeDocumentMoniker": "TemplateTPCorto\\FormPrincipal.cs",
+              "ToolTip": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\TemplateTPCorto\\FormPrincipal.cs",
+              "RelativeToolTip": "TemplateTPCorto\\FormPrincipal.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA6wCUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T22:35:18.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PerfilPersistencia.cs",
+              "DocumentMoniker": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\Persistencia\\PerfilPersistencia.cs",
+              "RelativeDocumentMoniker": "Persistencia\\PerfilPersistencia.cs",
+              "ToolTip": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\Persistencia\\PerfilPersistencia.cs*",
+              "RelativeToolTip": "Persistencia\\PerfilPersistencia.cs*",
+              "ViewState": "AgIAABsAAAAAAAAAAAAmwDYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T03:28:54.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "SupervisorForm.cs",
-              "DocumentMoniker": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\SupervisorForm.cs",
+              "DocumentMoniker": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\TemplateTPCorto\\SupervisorForm.cs",
               "RelativeDocumentMoniker": "TemplateTPCorto\\SupervisorForm.cs",
-              "ToolTip": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\SupervisorForm.cs*",
-              "RelativeToolTip": "TemplateTPCorto\\SupervisorForm.cs*",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAkwB4AAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\TemplateTPCorto\\SupervisorForm.cs",
+              "RelativeToolTip": "TemplateTPCorto\\SupervisorForm.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAmwFoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-23T03:30:36.319Z",
               "EditorCaption": ""
@@ -220,153 +225,10 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "SupervisorForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\SupervisorForm.Designer.cs",
-              "RelativeDocumentMoniker": "TemplateTPCorto\\SupervisorForm.Designer.cs",
-              "ToolTip": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\SupervisorForm.Designer.cs",
-              "RelativeToolTip": "TemplateTPCorto\\SupervisorForm.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T03:31:08.686Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AdminAuthorizationForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\AdminAuthorizationForm.Designer.cs",
-              "RelativeDocumentMoniker": "TemplateTPCorto\\AdminAuthorizationForm.Designer.cs",
-              "ToolTip": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\AdminAuthorizationForm.Designer.cs",
-              "RelativeToolTip": "TemplateTPCorto\\AdminAuthorizationForm.Designer.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAuwDAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T03:32:38.329Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ProfileService.cs",
-              "DocumentMoniker": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\Negocio\\ProfileService.cs",
-              "RelativeDocumentMoniker": "Negocio\\ProfileService.cs",
-              "ToolTip": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\Negocio\\ProfileService.cs",
-              "RelativeToolTip": "Negocio\\ProfileService.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAuwCgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T03:29:31.569Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PerfilPersistencia.cs",
-              "DocumentMoniker": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\Persistencia\\PerfilPersistencia.cs",
-              "RelativeDocumentMoniker": "Persistencia\\PerfilPersistencia.cs",
-              "ToolTip": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\Persistencia\\PerfilPersistencia.cs",
-              "RelativeToolTip": "Persistencia\\PerfilPersistencia.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAuwDYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T03:28:54.888Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PerfilRol.cs",
-              "DocumentMoniker": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\Datos\\PerfilRol.cs",
-              "RelativeDocumentMoniker": "Datos\\PerfilRol.cs",
-              "ToolTip": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\Datos\\PerfilRol.cs",
-              "RelativeToolTip": "Datos\\PerfilRol.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T03:28:31.979Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Rol.cs",
-              "DocumentMoniker": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\Datos\\Rol.cs",
-              "RelativeDocumentMoniker": "Datos\\Rol.cs",
-              "ToolTip": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\Datos\\Rol.cs",
-              "RelativeToolTip": "Datos\\Rol.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T03:28:09.976Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Perfil.cs",
-              "DocumentMoniker": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\Datos\\Perfil.cs",
-              "RelativeDocumentMoniker": "Datos\\Perfil.cs",
-              "ToolTip": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\Datos\\Perfil.cs",
-              "RelativeToolTip": "Datos\\Perfil.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T03:27:50.139Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ChangePassword.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Tadeo Zamora\\Source\\Repos\\CAI1C25-G15\\TemplateTPCorto\\ChangePassword.Designer.cs",
-              "RelativeDocumentMoniker": "TemplateTPCorto\\ChangePassword.Designer.cs",
-              "ToolTip": "C:\\Users\\Tadeo Zamora\\Source\\Repos\\CAI1C25-G15\\TemplateTPCorto\\ChangePassword.Designer.cs",
-              "RelativeToolTip": "TemplateTPCorto\\ChangePassword.Designer.cs",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAgwIUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T03:06:04.06Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "PasswordService.cs",
-              "DocumentMoniker": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\Negocio\\PasswordService.cs",
-              "RelativeDocumentMoniker": "Negocio\\PasswordService.cs",
-              "ToolTip": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\Negocio\\PasswordService.cs",
-              "RelativeToolTip": "Negocio\\PasswordService.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowAsAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T03:13:39.088Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\Program.cs",
-              "RelativeDocumentMoniker": "TemplateTPCorto\\Program.cs",
-              "ToolTip": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\Program.cs",
-              "RelativeToolTip": "TemplateTPCorto\\Program.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T22:56:24.721Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "UsuarioPersistencia.cs",
-              "DocumentMoniker": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\Persistencia\\UsuarioPersistencia.cs",
-              "RelativeDocumentMoniker": "Persistencia\\UsuarioPersistencia.cs",
-              "ToolTip": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\Persistencia\\UsuarioPersistencia.cs",
-              "RelativeToolTip": "Persistencia\\UsuarioPersistencia.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAAAA0AAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T22:35:23.18Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
               "Title": "LoginNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\Negocio\\LoginNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\Negocio\\LoginNegocio.cs",
               "RelativeDocumentMoniker": "Negocio\\LoginNegocio.cs",
-              "ToolTip": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\Negocio\\LoginNegocio.cs",
+              "ToolTip": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\Negocio\\LoginNegocio.cs",
               "RelativeToolTip": "Negocio\\LoginNegocio.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -375,36 +237,246 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ChangePassword.cs",
-              "DocumentMoniker": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\ChangePassword.cs",
-              "RelativeDocumentMoniker": "TemplateTPCorto\\ChangePassword.cs",
-              "ToolTip": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\ChangePassword.cs",
-              "RelativeToolTip": "TemplateTPCorto\\ChangePassword.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAxAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "ProfileService.cs",
+              "DocumentMoniker": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\Negocio\\ProfileService.cs",
+              "RelativeDocumentMoniker": "Negocio\\ProfileService.cs",
+              "ToolTip": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\Negocio\\ProfileService.cs",
+              "RelativeToolTip": "Negocio\\ProfileService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAmwBcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T03:05:51.69Z",
+              "WhenOpened": "2025-05-23T03:29:31.569Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ChangePassword.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\ChangePassword.cs",
-              "RelativeDocumentMoniker": "TemplateTPCorto\\ChangePassword.cs",
-              "ToolTip": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\ChangePassword.cs [Dise\u00F1o]",
-              "RelativeToolTip": "TemplateTPCorto\\ChangePassword.cs [Dise\u00F1o]",
+              "DocumentIndex": 8,
+              "Title": "AdminAuthorizationForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\TemplateTPCorto\\AdminAuthorizationForm.Designer.cs",
+              "RelativeDocumentMoniker": "TemplateTPCorto\\AdminAuthorizationForm.Designer.cs",
+              "ToolTip": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\TemplateTPCorto\\AdminAuthorizationForm.Designer.cs",
+              "RelativeToolTip": "TemplateTPCorto\\AdminAuthorizationForm.Designer.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAowDAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T03:05:44.453Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-05-23T03:32:38.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdminAuthorizationForm.cs",
+              "DocumentMoniker": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\TemplateTPCorto\\AdminAuthorizationForm.cs",
+              "RelativeDocumentMoniker": "TemplateTPCorto\\AdminAuthorizationForm.cs",
+              "ToolTip": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\TemplateTPCorto\\AdminAuthorizationForm.cs",
+              "RelativeToolTip": "TemplateTPCorto\\AdminAuthorizationForm.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAowGgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T03:32:33.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FormLogin.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\TemplateTPCorto\\FormLogin.Designer.cs",
+              "RelativeDocumentMoniker": "TemplateTPCorto\\FormLogin.Designer.cs",
+              "ToolTip": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\TemplateTPCorto\\FormLogin.Designer.cs",
+              "RelativeToolTip": "TemplateTPCorto\\FormLogin.Designer.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAiwB8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T22:39:29.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FormLogin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\TemplateTPCorto\\FormLogin.cs",
+              "RelativeDocumentMoniker": "TemplateTPCorto\\FormLogin.cs",
+              "ToolTip": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\TemplateTPCorto\\FormLogin.cs [Design]",
+              "RelativeToolTip": "TemplateTPCorto\\FormLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T03:34:28.146Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UsuarioPersistencia.cs",
+              "DocumentMoniker": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\Persistencia\\UsuarioPersistencia.cs",
+              "RelativeDocumentMoniker": "Persistencia\\UsuarioPersistencia.cs",
+              "ToolTip": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\Persistencia\\UsuarioPersistencia.cs",
+              "RelativeToolTip": "Persistencia\\UsuarioPersistencia.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwA4AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T22:35:23.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\Datos\\Persona.cs",
+              "RelativeDocumentMoniker": "Datos\\Persona.cs",
+              "ToolTip": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\Datos\\Persona.cs",
+              "RelativeToolTip": "Datos\\Persona.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAswBQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T23:00:13.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PersonaPersistencia.cs",
+              "DocumentMoniker": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\Persistencia\\PersonaPersistencia.cs",
+              "RelativeDocumentMoniker": "Persistencia\\PersonaPersistencia.cs",
+              "ToolTip": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\Persistencia\\PersonaPersistencia.cs",
+              "RelativeToolTip": "Persistencia\\PersonaPersistencia.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAA9wCwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T23:00:56.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FormPrincipal.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\TemplateTPCorto\\FormPrincipal.cs",
+              "RelativeDocumentMoniker": "TemplateTPCorto\\FormPrincipal.cs",
+              "ToolTip": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\TemplateTPCorto\\FormPrincipal.cs [Design]",
+              "RelativeToolTip": "TemplateTPCorto\\FormPrincipal.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T22:33:45.441Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ModifyPersonForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\TemplateTPCorto\\ModifyPersonForm.Designer.cs",
+              "RelativeDocumentMoniker": "TemplateTPCorto\\ModifyPersonForm.Designer.cs",
+              "ToolTip": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\TemplateTPCorto\\ModifyPersonForm.Designer.cs",
+              "RelativeToolTip": "TemplateTPCorto\\ModifyPersonForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T03:44:24.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ModifyPersonForm.cs",
+              "DocumentMoniker": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\TemplateTPCorto\\ModifyPersonForm.cs",
+              "RelativeDocumentMoniker": "TemplateTPCorto\\ModifyPersonForm.cs",
+              "ToolTip": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\ModifyPersonForm.cs*",
+              "RelativeToolTip": "..\\..\\..\\..\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\ModifyPersonForm.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T03:44:05.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PerfilRol.cs",
+              "DocumentMoniker": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\Datos\\PerfilRol.cs",
+              "RelativeDocumentMoniker": "Datos\\PerfilRol.cs",
+              "ToolTip": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\Datos\\PerfilRol.cs",
+              "RelativeToolTip": "Datos\\PerfilRol.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T03:28:31.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Rol.cs",
+              "DocumentMoniker": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\Datos\\Rol.cs",
+              "RelativeDocumentMoniker": "Datos\\Rol.cs",
+              "ToolTip": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\Datos\\Rol.cs",
+              "RelativeToolTip": "Datos\\Rol.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T03:28:09.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Perfil.cs",
+              "DocumentMoniker": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\Datos\\Perfil.cs",
+              "RelativeDocumentMoniker": "Datos\\Perfil.cs",
+              "ToolTip": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\Datos\\Perfil.cs",
+              "RelativeToolTip": "Datos\\Perfil.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T03:27:50.139Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
+              "Title": "ChangePassword.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\TemplateTPCorto\\ChangePassword.Designer.cs",
+              "RelativeDocumentMoniker": "TemplateTPCorto\\ChangePassword.Designer.cs",
+              "ToolTip": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\TemplateTPCorto\\ChangePassword.Designer.cs",
+              "RelativeToolTip": "TemplateTPCorto\\ChangePassword.Designer.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAgwIUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T03:06:04.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PasswordService.cs",
+              "DocumentMoniker": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\Negocio\\PasswordService.cs",
+              "RelativeDocumentMoniker": "Negocio\\PasswordService.cs",
+              "ToolTip": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\Negocio\\PasswordService.cs",
+              "RelativeToolTip": "Negocio\\PasswordService.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T03:13:39.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\TemplateTPCorto\\Program.cs",
+              "RelativeDocumentMoniker": "TemplateTPCorto\\Program.cs",
+              "ToolTip": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\TemplateTPCorto\\Program.cs",
+              "RelativeToolTip": "TemplateTPCorto\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T22:56:24.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ChangePassword.cs",
+              "DocumentMoniker": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\TemplateTPCorto\\ChangePassword.cs",
+              "RelativeDocumentMoniker": "TemplateTPCorto\\ChangePassword.cs",
+              "ToolTip": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\TemplateTPCorto\\ChangePassword.cs",
+              "RelativeToolTip": "TemplateTPCorto\\ChangePassword.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T03:05:51.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ChangePassword.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\TemplateTPCorto\\ChangePassword.cs",
+              "RelativeDocumentMoniker": "TemplateTPCorto\\ChangePassword.cs",
+              "ToolTip": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\ChangePassword.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\ChangePassword.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T03:05:44.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "Credencial.cs",
-              "DocumentMoniker": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\Datos\\Login\\Credencial.cs",
+              "DocumentMoniker": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\Datos\\Login\\Credencial.cs",
               "RelativeDocumentMoniker": "Datos\\Login\\Credencial.cs",
-              "ToolTip": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\Datos\\Login\\Credencial.cs",
+              "ToolTip": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\Datos\\Login\\Credencial.cs",
               "RelativeToolTip": "Datos\\Login\\Credencial.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -412,24 +484,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "FormLogin.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\FormLogin.Designer.cs",
-              "RelativeDocumentMoniker": "TemplateTPCorto\\FormLogin.Designer.cs",
-              "ToolTip": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\FormLogin.Designer.cs",
-              "RelativeToolTip": "TemplateTPCorto\\FormLogin.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T22:39:29.307Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "credenciales.csv",
-              "DocumentMoniker": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\Persistencia\\DataBase\\Tablas\\credenciales.csv",
+              "DocumentMoniker": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\Persistencia\\DataBase\\Tablas\\credenciales.csv",
               "RelativeDocumentMoniker": "Persistencia\\DataBase\\Tablas\\credenciales.csv",
-              "ToolTip": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\Persistencia\\DataBase\\Tablas\\credenciales.csv",
+              "ToolTip": "C:\\Users\\RC991FB\\source\\Repos\\CAI1C25-G15\\Persistencia\\DataBase\\Tablas\\credenciales.csv",
               "RelativeToolTip": "Persistencia\\DataBase\\Tablas\\credenciales.csv",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
-using Negocio;  // LoginNegocio y PasswordService
+using Negocio;        // LoginNegocio, PasswordService
+using Persistencia;   // UsuarioPersistencia
 
 namespace TemplateTPCorto
 {
@@ -8,6 +9,7 @@ namespace TemplateTPCorto
     {
         private readonly LoginNegocio _loginNeg = new LoginNegocio();
         private readonly PasswordService _pwdSvc = new PasswordService();
+        private readonly UsuarioPersistencia _up = new UsuarioPersistencia();
 
         public FormLogin()
         {
@@ -21,47 +23,34 @@ namespace TemplateTPCorto
 
             try
             {
-                // 1) Autenticar
-                _loginNeg.Autenticar(usuario, password);
+                // 1) Autentico y obtengo Credencial (trae .Legajo)
+                var cred = _loginNeg.Autenticar(usuario, password);
+                var legajo = cred.Legajo;
 
-                // 2) Forzar cambio si corresponde
+                // 2) Forzar cambio de contraseña si corresponde
                 if (_pwdSvc.NecesitaCambiar(usuario))
                 {
-                    // → Alerta previa
                     MessageBox.Show(
-                        "Su contraseña ha vencido. Por favor, cambie la contraseña.",
+                        "Su contraseña ha vencido. Por favor, cámbiela ahora.",
                         "Contraseña expirada",
                         MessageBoxButtons.OK,
                         MessageBoxIcon.Warning
                     );
-
-                    using (var changeForm = new ChangePasswordForm())
-                    {
-                        if (changeForm.ShowDialog() != DialogResult.OK)
-                        {
-                            MessageBox.Show(
-                                "Debe cambiar su contraseña para continuar.",
-                                "Atención",
-                                MessageBoxButtons.OK,
-                                MessageBoxIcon.Warning
-                            );
+                    using (var f = new ChangePasswordForm())
+                        if (f.ShowDialog() != DialogResult.OK)
                             return;
-                        }
-                    }
                 }
 
-                // 3) Login exitoso
-                MessageBox.Show(
-                    "Ingreso exitoso",
-                    "Éxito",
-                    MessageBoxButtons.OK,
-                    MessageBoxIcon.Information
-                );
+                // 3) Leer perfil (1=Operador, 2=Supervisor, 3=Administrador)
+                var idPerfil = _up.ObtenerIdPerfil(legajo);
 
-                // → Aquí podrías abrir tu FormPrincipal:
-                // var mainForm = new FormPrincipal(usuario);
-                // this.Hide();
-                // mainForm.Show();
+                // 4) Abrir siempre FormPrincipal y pasar perfil
+                using (var main = new FormPrincipal(usuario, idPerfil))
+                {
+                    this.Hide();
+                    main.ShowDialog();
+                    this.Show();
+                }
             }
             catch (Exception ex)
             {
@@ -76,9 +65,9 @@ namespace TemplateTPCorto
 
         private void btnCambiarPassword_Click(object sender, EventArgs e)
         {
-            using (var changeForm = new ChangePasswordForm())
+            using (var f = new ChangePasswordForm())
             {
-                changeForm.ShowDialog();
+                f.ShowDialog();
             }
         }
     }

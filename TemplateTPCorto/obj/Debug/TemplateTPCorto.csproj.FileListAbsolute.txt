@@ -39,3 +39,24 @@ C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\Datos.p
 C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\Negocio.pdb
 C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\Persistencia.pdb
 C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\TemplateTPCorto\obj\Debug\Template.E57F9EC8.Up2Date
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\TemplateTPCorto\obj\Debug\TemplateTPCorto.csproj.AssemblyReference.cache
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\TemplateTPCorto\obj\Debug\TemplateTPCorto.exe.config
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\TemplateTPCorto\obj\Debug\TemplateTPCorto.FormLogin.resources
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\TemplateTPCorto\obj\Debug\TemplateTPCorto.Properties.Resources.resources
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\TemplateTPCorto\obj\Debug\TemplateTPCorto.csproj.GenerateResource.cache
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\TemplateTPCorto\obj\Debug\TemplateTPCorto.csproj.CoreCompileInputs.cache
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\TemplateTPCorto\obj\Debug\TemplateTPCorto.exe
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\TemplateTPCorto\obj\Debug\TemplateTPCorto.pdb
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\DataBase\Tablas\credenciales.csv
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\DataBase\Tablas\login_intentos.csv
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\DataBase\Tablas\usuario_bloqueado.csv
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\TemplateTPCorto.exe.config
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\TemplateTPCorto.exe
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\TemplateTPCorto.pdb
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\Datos.dll
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\Negocio.dll
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\Persistencia.dll
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\Datos.pdb
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\Negocio.pdb
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\Persistencia.pdb
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\TemplateTPCorto\obj\Debug\Template.E57F9EC8.Up2Date

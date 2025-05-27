@@ -10,3 +10,9 @@ C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Datos\obj\Debug\Datos.csproj.Asse
 C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
 C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Datos\obj\Debug\Datos.dll
 C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Datos\obj\Debug\Datos.pdb
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\Datos\bin\Debug\Datos.dll
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\Datos\bin\Debug\Datos.pdb
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\Datos\obj\Debug\Datos.dll
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\Datos\obj\Debug\Datos.pdb

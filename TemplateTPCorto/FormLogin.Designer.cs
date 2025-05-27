@@ -27,6 +27,8 @@
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.btnIngresar = new System.Windows.Forms.Button();
             this.btnCambiarPassword = new System.Windows.Forms.Button();
+            // dentro de InitializeComponent()
+            this.btnCambiarPassword.Click += new System.EventHandler(this.btnCambiarPassword_Click);       
             this.SuspendLayout();
             // 
             // FormLogin

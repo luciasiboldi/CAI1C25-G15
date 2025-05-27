@@ -8,51 +8,50 @@ namespace Persistencia
 {
     public class UsuarioPersistencia
     {
-        private readonly string _carpeta =
-            Path.Combine(AppDomain.CurrentDomain.BaseDirectory);
+        private readonly string _baseDir = AppDomain.CurrentDomain.BaseDirectory;
         private const string CredencialesCsv = "credenciales.csv";
         private const string IntentosCsv = "login_intentos.csv";
         private const string BloqueadosCsv = "usuario_bloqueado.csv";
+        private const string UsuarioPerfilCsv = "usuario_perfil.csv";
         public const int MaxIntentos = 3;
 
-        private string Ruta(string nombre) => Path.Combine(_carpeta, nombre);
+        private string Ruta(string fileName) => Path.Combine(_baseDir, fileName);
 
-        private IEnumerable<string> LeerTodas(string file)
+        private IEnumerable<string> LeerTodas(string fileName)
         {
-            var ruta = Ruta(file);
-            if (!File.Exists(ruta)) return Enumerable.Empty<string>();
+            var path = Ruta(fileName);
+            if (!File.Exists(path)) return Enumerable.Empty<string>();
 
-            var todas = File.ReadAllLines(ruta)
+            var lines = File.ReadAllLines(path)
                             .Where(l => !string.IsNullOrWhiteSpace(l));
-
-            // Solo la credenciales tiene cabecera:
-            if (file.Equals(CredencialesCsv, StringComparison.OrdinalIgnoreCase))
-                return todas.Skip(1);
-
-            return todas;
+            // Solo credenciales tiene cabecera:
+            if (fileName.Equals(CredencialesCsv, StringComparison.OrdinalIgnoreCase))
+                return lines.Skip(1);
+            return lines;
         }
 
-        private void AgregarLinea(string file, string linea)
+        private void AgregarLinea(string fileName, string linea)
         {
-            var ruta = Ruta(file);
-            File.AppendAllText(ruta, linea + Environment.NewLine);
+            var path = Ruta(fileName);
+            File.AppendAllText(path, linea + Environment.NewLine);
         }
 
         public Credencial ObtenerCredencial(string usuario)
         {
             return LeerTodas(CredencialesCsv)
-                  .Select(l => new Credencial(l))
-                  .FirstOrDefault(c => c.NombreUsuario
-                        .Equals(usuario, StringComparison.OrdinalIgnoreCase));
+                .Select(l => new Credencial(l))
+                .FirstOrDefault(c => c.NombreUsuario
+                    .Equals(usuario, StringComparison.OrdinalIgnoreCase));
         }
 
         public bool EsUsuarioBloqueado(string legajo)
             => LeerTodas(BloqueadosCsv)
-               .Any(l => l.Split(';')[0] == legajo);
+                .Select(l => l.Split(';')[0])
+                .Contains(legajo);
 
         public int ObtenerIntentos(string legajo)
             => LeerTodas(IntentosCsv)
-               .Count(l => l.Split(';')[0] == legajo);
+                .Count(l => l.Split(';')[0] == legajo);
 
         public void RegistrarIntento(string legajo)
         {
@@ -63,29 +62,81 @@ namespace Persistencia
         }
 
         public void BloquearUsuario(string legajo)
-            => AgregarLinea(BloqueadosCsv, legajo);
+        {
+            AgregarLinea(BloqueadosCsv, legajo);
+        }
 
+        public void DesbloquearUsuario(string legajo)
+        {
+            var path = Ruta(BloqueadosCsv);
+            if (!File.Exists(path)) return;
+
+            var kept = File.ReadAllLines(path)
+                          .Where(l => string.IsNullOrWhiteSpace(l)
+                                      || !l.Split(';')[0].Equals(legajo));
+            File.WriteAllLines(path, kept);
+        }
+
+        public void ActualizarPerfilUsuario(string legajo, string nuevoPerfilId)
+        {
+            var path = Ruta(UsuarioPerfilCsv);
+            if (!File.Exists(path)) return;
+
+            var lines = File.ReadAllLines(path).ToList();
+            if (lines.Count < 1) return;
+
+            var header = lines[0];
+            var data = lines.Skip(1)
+                .Select(l =>
+                {
+                    var parts = l.Split(';');
+                    return parts[0] == legajo
+                        ? $"{legajo};{nuevoPerfilId}"
+                        : l;
+                });
+
+            File.WriteAllLines(path, new[] { header }.Concat(data));
+        }
+        /// <summary>
+        /// Reescribe en credenciales.csv la columna de contraseña y actualiza fecha de último login.
+        /// </summary>
         public void ActualizarCredencial(string usuario, string nuevaContrasena)
         {
-            var ruta = Ruta(CredencialesCsv);
-            var lines = File.ReadAllLines(ruta).ToList();
-            if (lines.Count <= 1) return;  // solo cabecera
+            var path = Ruta(CredencialesCsv);
+            if (!File.Exists(path)) return;
 
+            var lines = File.ReadAllLines(path).ToList();
+            if (lines.Count <= 1) return;  // sólo cabecera o vacío
+
+            // Cabecera en lines[0], datos desde 1...
             for (int i = 1; i < lines.Count; i++)
             {
                 var cols = lines[i].Split(';');
+                // cols[1] es NombreUsuario
                 if (cols.Length < 5) continue;
+                if (!cols[1].Equals(usuario, StringComparison.OrdinalIgnoreCase))
+                    continue;
 
-                if (cols[1].Equals(usuario, StringComparison.OrdinalIgnoreCase))
-                {
-                    cols[2] = nuevaContrasena;                        // nueva pass
-                    cols[4] = DateTime.Today.ToString("d/M/yyyy");    // fecha último login
-                    lines[i] = string.Join(";", cols);
-                    break;
-                }
+                // Actualizo contraseña (col 2) y fecha último login (col 4)
+                cols[2] = nuevaContrasena;
+                cols[4] = DateTime.Today.ToString("d/M/yyyy");
+                lines[i] = string.Join(";", cols);
+                break;
             }
 
-            File.WriteAllLines(ruta, lines);
+            File.WriteAllLines(path, lines);
+        }
+        public string ObtenerIdPerfil(string legajo)
+        {
+            // Lee el CSV usuario_perfil.csv (sin saltar cabecera)
+            var lines = LeerTodas(UsuarioPerfilCsv);
+            foreach (var l in lines)
+            {
+                var cols = l.Split(';');
+                if (cols[0].Equals(legajo, StringComparison.OrdinalIgnoreCase))
+                    return cols[1];
+            }
+            return null;
         }
     }
 }
