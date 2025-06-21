@@ -34,3 +34,15 @@ C:\Users\RC991FB\Source\Repos\CAI1C25-G15\Persistencia\obj\Debug\Persistencia.cs
 C:\Users\RC991FB\Source\Repos\CAI1C25-G15\Persistencia\obj\Debug\Persiste.7F7D6998.Up2Date
 C:\Users\RC991FB\Source\Repos\CAI1C25-G15\Persistencia\obj\Debug\Persistencia.dll
 C:\Users\RC991FB\Source\Repos\CAI1C25-G15\Persistencia\obj\Debug\Persistencia.pdb
+C:\Users\Nacho\Source\Repos\CAI1C25-G15\Persistencia\bin\Debug\DataBase\Tablas\credenciales.csv
+C:\Users\Nacho\Source\Repos\CAI1C25-G15\Persistencia\bin\Debug\DataBase\Tablas\login_intentos.csv
+C:\Users\Nacho\Source\Repos\CAI1C25-G15\Persistencia\bin\Debug\DataBase\Tablas\usuario_bloqueado.csv
+C:\Users\Nacho\Source\Repos\CAI1C25-G15\Persistencia\bin\Debug\Persistencia.dll
+C:\Users\Nacho\Source\Repos\CAI1C25-G15\Persistencia\bin\Debug\Persistencia.pdb
+C:\Users\Nacho\Source\Repos\CAI1C25-G15\Persistencia\bin\Debug\Datos.dll
+C:\Users\Nacho\Source\Repos\CAI1C25-G15\Persistencia\bin\Debug\Datos.pdb
+C:\Users\Nacho\Source\Repos\CAI1C25-G15\Persistencia\obj\Debug\Persistencia.csproj.AssemblyReference.cache
+C:\Users\Nacho\Source\Repos\CAI1C25-G15\Persistencia\obj\Debug\Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\Nacho\Source\Repos\CAI1C25-G15\Persistencia\obj\Debug\Persiste.7F7D6998.Up2Date
+C:\Users\Nacho\Source\Repos\CAI1C25-G15\Persistencia\obj\Debug\Persistencia.dll
+C:\Users\Nacho\Source\Repos\CAI1C25-G15\Persistencia\obj\Debug\Persistencia.pdb
