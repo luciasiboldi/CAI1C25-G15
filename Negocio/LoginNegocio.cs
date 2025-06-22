@@ -29,6 +29,7 @@ namespace Negocio
                 throw new Exception($"Contraseña incorrecta. Intento {intentos} de {UsuarioPersistencia.MaxIntentos}.");
             }
 
+            _up.LimpiarIntentos(cred.Legajo);
             return cred;
         }
     }

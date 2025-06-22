@@ -2,21 +2,22 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Persistencia.DataBase
 {
     public class DataBaseUtils
     {
-        string archivoCsv = @"C:\Users\p044755\source\repos\TemplateTPIntegrador\TemplateTPCorto\Persistencia\DataBase\Tablas\";
-        public List<String> BuscarRegistro(String nombreArchivo)
+        private string GetTablePath(string nombreArchivo)
         {
-            archivoCsv = archivoCsv + nombreArchivo; // Cambia esta ruta al archivo CSV que deseas leer
+            string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
+            string solutionRoot = Path.GetFullPath(Path.Combine(baseDirectory, @"..\..\.."));
+            return Path.Combine(solutionRoot, "Persistencia", "DataBase", "Tablas", nombreArchivo);
+        }
 
-            String rutaArchivo = Path.GetFullPath(archivoCsv); // Normaliza la ruta
-
-            List<String> listado = new List<String>();
+        public List<string> BuscarRegistro(string nombreArchivo)
+        {
+            string rutaArchivo = GetTablePath(nombreArchivo);
+            var listado = new List<string>();
 
             try
             {
@@ -37,34 +38,28 @@ namespace Persistencia.DataBase
             return listado;
         }
 
-        // Método para borrar un registro
-        public void BorrarRegistro(string id, String nombreArchivo)
+        public void BorrarRegistro(string id, string nombreArchivo)
         {
-            archivoCsv = archivoCsv + nombreArchivo; // Cambia esta ruta al archivo CSV que deseas leer
+            string rutaArchivo = GetTablePath(nombreArchivo);
 
-            String rutaArchivo = Path.GetFullPath(archivoCsv); // Normaliza la ruta
+            if (!File.Exists(rutaArchivo))
+            {
+                Console.WriteLine("El archivo no existe: " + rutaArchivo);
+                return;
+            }
 
             try
             {
-                // Verificar si el archivo existe
-                if (!File.Exists(rutaArchivo))
-                {
-                    Console.WriteLine("El archivo no existe: " + archivoCsv);
-                    return;
-                }
+                var listado = File.ReadAllLines(rutaArchivo).ToList();
 
-                // Leer el archivo y obtener las líneas
-                List<string> listado = BuscarRegistro(nombreArchivo);
-
-                // Filtrar las líneas que no coinciden con el ID a borrar (comparar solo la primera columna)
                 var registrosRestantes = listado.Where(linea =>
                 {
+                    if (string.IsNullOrEmpty(linea)) return false;
                     var campos = linea.Split(';');
-                    return campos[0] != id; // Verifica solo el ID (primera columna)
+                    return campos.Length > 0 && campos[0] != id;
                 }).ToList();
 
-                // Sobrescribir el archivo con las líneas restantes
-                File.WriteAllLines(archivoCsv, registrosRestantes);
+                File.WriteAllLines(rutaArchivo, registrosRestantes);
 
                 Console.WriteLine($"Registro con ID {id} borrado correctamente.");
             }
@@ -76,24 +71,15 @@ namespace Persistencia.DataBase
             }
         }
 
-        // Método para agregar un registro
         public void AgregarRegistro(string nombreArchivo, string nuevoRegistro)
         {
-            string archivoCsv = Path.Combine(Directory.GetCurrentDirectory(), "Persistencia", "Datos", nombreArchivo);
+            string rutaArchivo = GetTablePath(nombreArchivo);
 
             try
             {
-                // Verificar si el archivo existe
-                if (!File.Exists(archivoCsv))
+                using (StreamWriter sw = new StreamWriter(rutaArchivo, append: true))
                 {
-                    Console.WriteLine("El archivo no existe: " + archivoCsv);
-                    return;
-                }
-
-                // Abrir el archivo y agregar el nuevo registro
-                using (StreamWriter sw = new StreamWriter(archivoCsv, append: true))
-                {
-                    sw.WriteLine(nuevoRegistro); // Agregar la nueva línea
+                    sw.WriteLine(nuevoRegistro);
                 }
 
                 Console.WriteLine("Registro agregado correctamente.");
@@ -105,6 +91,5 @@ namespace Persistencia.DataBase
                 Console.WriteLine($"Pila de errores: {e.StackTrace}");
             }
         }
-
     }
 }

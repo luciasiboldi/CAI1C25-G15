@@ -8,12 +8,18 @@ namespace Persistencia
 {
     public class PersonaPersistencia
     {
-        private readonly string _baseDir = AppDomain.CurrentDomain.BaseDirectory;
         private const string PersonaCsv = "persona.csv";
+
+        private string Ruta(string fileName)
+        {
+            string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
+            string solutionRoot = Path.GetFullPath(Path.Combine(baseDirectory, @"..\..\.."));
+            return Path.Combine(solutionRoot, "Persistencia", "DataBase", "Tablas", fileName);
+        }
 
         private IEnumerable<string> LeerTodas()
         {
-            var path = Path.Combine(_baseDir, PersonaCsv);
+            var path = Ruta(PersonaCsv);
             if (!File.Exists(path)) return Enumerable.Empty<string>();
             return File.ReadAllLines(path)
                        .Skip(1)
@@ -21,21 +27,30 @@ namespace Persistencia
         }
 
         public List<Persona> ObtenerTodas()
-            => LeerTodas().Select(l => new Persona(l)).ToList();
-
-        public void ActualizarPersona(Persona p)
         {
-            var path = Path.Combine(_baseDir, PersonaCsv);
+            var personas = new List<Persona>();
+            var lineas = LeerTodas();
+            foreach (var linea in lineas)
+            {
+                personas.Add(new Persona(linea));
+            }
+            return personas;
+        }
+
+        public void ActualizarPersona(Persona personaActualizada)
+        {
+            var path = Ruta(PersonaCsv);
+            if (!File.Exists(path)) return;
+
             var lines = File.ReadAllLines(path).ToList();
-            for (int i = 1; i < lines.Count; i++)
+
+            // Encuentra la línea para actualizar
+            for (int i = 1; i < lines.Count; i++) // Empieza en 1 para saltar cabecera
             {
                 var cols = lines[i].Split(';');
-                if (cols[0] == p.Legajo)
+                if (cols.Length > 0 && cols[0] == personaActualizada.Legajo)
                 {
-                    cols[1] = p.Nombre;
-                    cols[2] = p.Apellido;
-                    cols[3] = p.DNI.ToString();
-                    lines[i] = string.Join(";", cols);
+                    lines[i] = personaActualizada.ToCsv();
                     break;
                 }
             }

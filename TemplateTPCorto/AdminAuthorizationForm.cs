@@ -4,37 +4,39 @@ using System.IO;
 using System.Linq;
 using System.Windows.Forms;
 using Persistencia;
+using System.Collections.Generic;
 
 namespace TemplateTPCorto
 {
     public partial class AdminAuthorizationForm : Form
     {
         private readonly UsuarioPersistencia _up = new UsuarioPersistencia();
+        private readonly PerfilPersistencia _pp = new PerfilPersistencia();
         private DataTable _tabla;
+        private Dictionary<string, (bool isBlocked, string profileId)> _originalValues;
 
         public AdminAuthorizationForm()
         {
             InitializeComponent();
             CargarUsuarios();
+            dgvUsuarios.CellValueChanged += dgvUsuarios_CellValueChanged;
+        }
+
+        private Dictionary<string, string> ObtenerPerfilesComoDiccionario()
+        {
+            var diccionario = new Dictionary<string, string>();
+            var listaPerfiles = _pp.ObtenerTodosLosPerfiles();
+            foreach (var perfil in listaPerfiles)
+            {
+                diccionario[perfil.IdPerfil] = perfil.NombrePerfil;
+            }
+            return diccionario;
         }
 
         private void CargarUsuarios()
         {
-            var baseDir = AppDomain.CurrentDomain.BaseDirectory;
-            var creds = File.ReadAllLines(Path.Combine(baseDir, "credenciales.csv"))
-                              .Skip(1)
-                              .Select(l => l.Split(';'))
-                              .Select(c => new { Legajo = c[0], Usuario = c[1] });
-
-            var perf = File.ReadAllLines(Path.Combine(baseDir, "usuario_perfil.csv"))
-                           .Skip(1)
-                           .Select(l => l.Split(';'))
-                           .ToDictionary(c => c[0], c => c[1]);
-
-            var bloque = File.ReadAllLines(Path.Combine(baseDir, "usuario_bloqueado.csv"))
-                             .Skip(1)
-                             .Select(l => l.Split(';')[0])
-                             .ToHashSet();
+            var creds = _up.ObtenerTodosLosUsuarios();
+            var perfiles = ObtenerPerfilesComoDiccionario();
 
             _tabla = new DataTable();
             _tabla.Columns.Add("Legajo");
@@ -42,59 +44,65 @@ namespace TemplateTPCorto
             _tabla.Columns.Add("Bloqueado", typeof(bool));
             _tabla.Columns.Add("PerfilID", typeof(string));
 
+            _originalValues = new Dictionary<string, (bool, string)>();
+
             foreach (var c in creds)
             {
-                var idp = perf.TryGetValue(c.Legajo, out var p) ? p : "1";
-                _tabla.Rows.Add(c.Legajo, c.Usuario, bloque.Contains(c.Legajo), idp);
+                var idp = _up.ObtenerIdPerfil(c.Legajo) ?? "1";
+                var isBlocked = _up.EsUsuarioBloqueado(c.Legajo);
+                _tabla.Rows.Add(c.Legajo, c.NombreUsuario, isBlocked, idp);
+                _originalValues[c.Legajo] = (isBlocked, idp);
             }
 
             dgvUsuarios.DataSource = _tabla;
-
-            // ComboBox column: seleccionar nuevo perfil
-            var perfiles = File.ReadAllLines(Path.Combine(baseDir, "perfil.csv"))
-                               .Skip(1)
-                               .Select(l => l.Split(';'))
-                               .ToDictionary(x => x[0], x => x[1]);
 
             var combo = new DataGridViewComboBoxColumn
             {
                 HeaderText = "Nuevo Perfil",
                 DataPropertyName = "PerfilID",
-                DataSource = perfiles.ToList(),
+                DataSource = new BindingSource(perfiles, null),
                 ValueMember = "Key",
                 DisplayMember = "Value"
             };
             dgvUsuarios.Columns.Add(combo);
+        }
 
-            // Checkbox columna para editar bloqueo
-            var chk = new DataGridViewCheckBoxColumn
+        private void dgvUsuarios_CellValueChanged(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0)
             {
-                HeaderText = "Bloqueado?",
-                DataPropertyName = "Bloqueado"
-            };
-            dgvUsuarios.Columns.Add(chk);
+                dgvUsuarios.EndEdit();
+            }
         }
 
         private void btnGuardarCambios_Click(object sender, EventArgs e)
         {
             foreach (DataGridViewRow row in dgvUsuarios.Rows)
             {
+                if (row.IsNewRow) continue;
+
                 var legajo = row.Cells["Legajo"].Value.ToString();
-                var bloqueOld = (bool)row.Cells["Bloqueado"].Value;
-                var bloqueNew = Convert.ToBoolean(row.Cells["Bloqueado?"].Value);
-                var perfilOld = row.Cells["PerfilID"].Tag?.ToString() ?? row.Cells["PerfilID"].Value.ToString();
-                var perfilNew = row.Cells["Nuevo Perfil"].Value.ToString();
+                if (!_originalValues.ContainsKey(legajo)) continue;
+
+                var (bloqueOriginal, perfilOriginal) = _originalValues[legajo];
+
+                var bloqueActual = Convert.ToBoolean(row.Cells["Bloqueado"].Value);
+                var perfilActual = row.Cells["PerfilID"].Value.ToString();
 
                 // bloqueo / desbloqueo
-                if (bloqueOld != bloqueNew)
+                if (bloqueOriginal != bloqueActual)
                 {
-                    if (bloqueNew) _up.BloquearUsuario(legajo);
-                    else _up.DesbloquearUsuario(legajo);
+                    if (bloqueActual) _up.BloquearUsuario(legajo);
+                    else
+                    {
+                        _up.DesbloquearUsuario(legajo);
+                        _up.LimpiarIntentos(legajo);
+                    }
                 }
 
                 // cambio de perfil
-                if (perfilOld != perfilNew)
-                    _up.ActualizarPerfilUsuario(legajo, perfilNew);
+                if (perfilOriginal != perfilActual)
+                    _up.ActualizarPerfilUsuario(legajo, perfilActual);
             }
 
             MessageBox.Show("Cambios guardados.", "OK",

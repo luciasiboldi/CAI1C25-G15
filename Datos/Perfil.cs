@@ -14,5 +14,10 @@ namespace Datos
             IdPerfil = cols[0];
             NombrePerfil = cols[1];
         }
+
+        public string ToCsv()
+        {
+            return $"{IdPerfil};{NombrePerfil}";
+        }
     }
 }

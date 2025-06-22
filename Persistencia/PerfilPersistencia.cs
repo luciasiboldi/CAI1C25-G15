@@ -1,52 +1,136 @@
 ﻿using System;
 using System.IO;
 using System.Linq;
+using System.Collections.Generic;
 
 namespace Persistencia
 {
     public class PerfilPersistencia
     {
-        private readonly string _baseDir = AppDomain.CurrentDomain.BaseDirectory;
         private const string UsuarioPerfilCsv = "usuario_perfil.csv";
         private const string PerfilCsv = "perfil.csv";
         private const string RolCsv = "rol.csv";
         private const string PerfilRolCsv = "perfil_rol.csv";
 
-        private string Ruta(string fileName) => Path.Combine(_baseDir, fileName);
+        private string Ruta(string fileName)
+        {
+            string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
+            string solutionRoot = Path.GetFullPath(Path.Combine(baseDirectory, @"..\..\.."));
+            return Path.Combine(solutionRoot, "Persistencia", "DataBase", "Tablas", fileName);
+        }
 
-       
+        private IEnumerable<string> LeerLineasNoVacias(string path)
+        {
+            var lineas = File.ReadAllLines(path);
+            var resultado = new List<string>();
+            foreach (var linea in lineas)
+            {
+                if (!string.IsNullOrWhiteSpace(linea))
+                {
+                    resultado.Add(linea);
+                }
+            }
+            return resultado;
+        }
+
+        private IEnumerable<string> SaltarCabecera(IEnumerable<string> lineas)
+        {
+            bool esPrimeraLinea = true;
+            var resultado = new List<string>();
+            foreach (var linea in lineas)
+            {
+                if (esPrimeraLinea)
+                {
+                    esPrimeraLinea = false;
+                    continue;
+                }
+                resultado.Add(linea);
+            }
+            return resultado;
+        }
+
+        private IEnumerable<string> LeerTodas(string fileName)
+        {
+            var path = Ruta(fileName);
+            if (!File.Exists(path)) return new List<string>();
+
+            var lineas = LeerLineasNoVacias(path);
+            return SaltarCabecera(lineas);
+        }
+
         public string ObtenerIdPerfil(string legajo)
         {
             var path = Ruta(UsuarioPerfilCsv);
             if (!File.Exists(path)) return null;
 
-            return File.ReadAllLines(path)
-                       .Skip(1)                                    // <-- Saltar la línea "legajo;idPerfil"
-                       .Where(l => !string.IsNullOrWhiteSpace(l))
-                       .Select(l => l.Split(';'))
-                       .Where(cols => cols[0]
-                             .Equals(legajo, StringComparison.OrdinalIgnoreCase))
-                       .Select(cols => cols[1])
-                       .FirstOrDefault();
+            var lineas = SaltarCabecera(LeerLineasNoVacias(path));
+
+            foreach (var linea in lineas)
+            {
+                var columnas = linea.Split(';');
+                if (columnas.Length > 1 && columnas[0].Equals(legajo, StringComparison.OrdinalIgnoreCase))
+                {
+                    return columnas[1];
+                }
+            }
+            return null;
         }
 
-       
+        private Dictionary<string, string> MapearRoles()
+        {
+            var lineasRoles = SaltarCabecera(LeerLineasNoVacias(Ruta(RolCsv)));
+            var mapa = new Dictionary<string, string>();
+            foreach (var linea in lineasRoles)
+            {
+                var columnas = linea.Split(';');
+                if (columnas.Length > 1)
+                {
+                    mapa[columnas[0]] = columnas[1];
+                }
+            }
+            return mapa;
+        }
+
+        private List<string> ObtenerIdsDeRolPorPerfil(string idPerfil)
+        {
+            var lineasPerfilRol = SaltarCabecera(LeerLineasNoVacias(Ruta(PerfilRolCsv)));
+            var idsRoles = new List<string>();
+            foreach (var linea in lineasPerfilRol)
+            {
+                var columnas = linea.Split(';');
+                if (columnas.Length > 1 && columnas[0] == idPerfil)
+                {
+                    idsRoles.Add(columnas[1]);
+                }
+            }
+            return idsRoles;
+        }
+
         public string[] ObtenerRolesPorPerfil(string idPerfil)
         {
-            var rolesMap = File.ReadAllLines(Ruta(RolCsv))
-                               .Skip(1)  // skip header
-                               .Select(l => l.Split(';'))
-                               .ToDictionary(c => c[0], c => c[1]);
+            var rolesMap = MapearRoles();
+            var rolIds = ObtenerIdsDeRolPorPerfil(idPerfil);
+            var rolesFinales = new List<string>();
 
-            var rolIds = File.ReadAllLines(Ruta(PerfilRolCsv))
-                             .Skip(1)
-                             .Select(l => l.Split(';'))
-                             .Where(c => c[0] == idPerfil)
-                             .Select(c => c[1]);
+            foreach (var id in rolIds)
+            {
+                if (rolesMap.ContainsKey(id))
+                {
+                    rolesFinales.Add(rolesMap[id]);
+                }
+            }
+            return rolesFinales.ToArray();
+        }
 
-            return rolIds.Where(rolesMap.ContainsKey)
-                         .Select(id => rolesMap[id])
-                         .ToArray();
+        public List<Datos.Perfil> ObtenerTodosLosPerfiles()
+        {
+            var lineas = LeerTodas(PerfilCsv);
+            var perfiles = new List<Datos.Perfil>();
+            foreach (var linea in lineas)
+            {
+                perfiles.Add(new Datos.Perfil(linea));
+            }
+            return perfiles;
         }
     }
 }
