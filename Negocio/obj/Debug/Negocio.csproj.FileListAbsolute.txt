@@ -54,3 +54,14 @@ C:\Users\Nacho\Source\Repos\CAI1C25-G15\Negocio\obj\Debug\Negocio.csproj.CoreCom
 C:\Users\Nacho\Source\Repos\CAI1C25-G15\Negocio\obj\Debug\Negocio.csproj.Up2Date
 C:\Users\Nacho\Source\Repos\CAI1C25-G15\Negocio\obj\Debug\Negocio.dll
 C:\Users\Nacho\Source\Repos\CAI1C25-G15\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Negocio\bin\Debug\System.Buffers.dll
+C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Negocio\bin\Debug\System.Memory.dll
+C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Negocio\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Negocio\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Negocio\bin\Debug\System.Text.Json.dll
+C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Negocio\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Negocio\bin\Debug\System.ValueTuple.dll
+C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Negocio\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Negocio\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Negocio\bin\Debug\Datos.dll.config
+C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Negocio\bin\Debug\Persistencia.dll.config

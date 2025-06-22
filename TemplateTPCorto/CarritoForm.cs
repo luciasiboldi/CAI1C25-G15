@@ -1,9 +1,8 @@
-﻿using System;
+﻿using Datos.Web;
+using Negocio.Web;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Net.Http;
-using System.Text;
-using System.Text.Json;
+using System.Data;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -11,42 +10,32 @@ namespace TemplateTPCorto
 {
     public partial class CarritoForm : Form
     {
-        private readonly HttpClient _httpClient;
         private List<Cliente> _clientes;
         private List<Producto> _productos;
-        private List<CartItem> _carrito;
+        private List<Producto> _carrito;
+        private string _usuario;
 
-        public CarritoForm()
+        public CarritoForm(string usuario)
         {
             InitializeComponent();
-            _httpClient = new HttpClient
-            {
-                BaseAddress = new Uri("https://tuservidor.api/") // TODO: ajustar URL base
-            };
-            _carrito = new List<CartItem>();
-
+            _carrito = new List<Producto>();
+            _usuario = usuario;
             Load += CarritoForm_Load;
         }
 
         private async void CarritoForm_Load(object sender, EventArgs e)
         {
             await CargarClientesAsync();
-            CargarCategorias();
-            ActualizarCarritoUI();
         }
 
         private async Task CargarClientesAsync()
         {
             try
             {
-                var response = await _httpClient.GetAsync("api/Cliente/GetClientes");
-                response.EnsureSuccessStatusCode();
-                var json = await response.Content.ReadAsStringAsync();
-                _clientes = JsonSerializer.Deserialize<List<Cliente>>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
-
+                _clientes = await ClienteService.GetClientes();
                 cmbClientes.DataSource = _clientes;
                 cmbClientes.DisplayMember = "Nombre";
-                cmbClientes.ValueMember = "Id";
+                cmbClientes.ValueMember = "IdCliente";
             }
             catch (Exception ex)
             {
@@ -54,124 +43,132 @@ namespace TemplateTPCorto
             }
         }
 
-        private void CargarCategorias()
+        private async void btnBuscarProductos_Click(object sender, EventArgs e)
         {
-            var categorias = new List<Categoria>
+            try
             {
-                new Categoria(1, "Audio"),
-                new Categoria(2, "Celulares"),
-                new Categoria(3, "Electro Hogar"),
-                new Categoria(4, "Informática"),
-                new Categoria(5, "Smart TV")
-            };
-            cmbCategorias.DataSource = categorias;
-            cmbCategorias.DisplayMember = "Descripcion";
-            cmbCategorias.ValueMember = "Id";
-        }
-
-        private async void BtnBuscar_Click(object sender, EventArgs e)
-        {
-            if (cmbCategorias.SelectedValue is int idCat)
+                _productos = await ProductoService.TraerTodosLosProductos();
+                dgvProductos.DataSource = _productos;
+            }
+            catch (Exception ex)
             {
-                try
-                {
-                    var response = await _httpClient.GetAsync($"api/Producto/TraerProductosPorCategoria?idCategoria={idCat}");
-                    response.EnsureSuccessStatusCode();
-                    var json = await response.Content.ReadAsStringAsync();
-                    _productos = JsonSerializer.Deserialize<List<Producto>>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
-
-                    dgvProductos.DataSource = _productos;
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show("Error al obtener productos: " + ex.Message);
-                }
+                MessageBox.Show("Error al obtener productos: " + ex.Message);
             }
         }
 
-        private void BtnAgregar_Click(object sender, EventArgs e)
+        private void btnAgregar_Click(object sender, EventArgs e)
         {
             if (dgvProductos.CurrentRow?.DataBoundItem is Producto prod)
             {
-                var existing = _carrito.FirstOrDefault(c => c.Producto.Id == prod.Id);
-                if (existing != null)
-                    existing.Cantidad++;
-                else
-                    _carrito.Add(new CartItem { Producto = prod, Cantidad = 1 });
-
+                _carrito.Add(prod);
                 ActualizarCarritoUI();
             }
         }
 
-        private async void BtnConfirmar_Click(object sender, EventArgs e)
+        private async void btnConfirmarVenta_Click(object sender, EventArgs e)
         {
-            if (cmbClientes.SelectedValue is int idCliente && _carrito.Any())
+            if (cmbClientes.SelectedValue == null)
             {
-                var ventaDto = new VentaDto
-                {
-                    ClienteId = idCliente,
-                    Items = _carrito.Select(c => new VentaItemDto { ProductoId = c.Producto.Id, Cantidad = c.Cantidad }).ToList()
-                };
+                MessageBox.Show("Por favor, seleccione un cliente.");
+                return;
+            }
+            if (_carrito.Count == 0)
+            {
+                MessageBox.Show("Por favor, agregue al menos un producto al carrito.");
+                return;
+            }
 
-                try
-                {
-                    var payload = JsonSerializer.Serialize(ventaDto);
-                    var content = new StringContent(payload, Encoding.UTF8, "application/json");
-                    var response = await _httpClient.PostAsync("api/Venta/AgregarVenta", content);
-                    response.EnsureSuccessStatusCode();
+            var venta = new Venta
+            {
+                IdCliente = (Guid)cmbClientes.SelectedValue,
+                Usuario = _usuario,
+                Productos = MapearCarritoAVentaProductos()
+            };
 
+            try
+            {
+                bool exito = await VentaService.AgregarVenta(venta);
+                if (exito)
+                {
                     MessageBox.Show("Venta registrada con éxito.");
                     _carrito.Clear();
                     ActualizarCarritoUI();
                 }
-                catch (Exception ex)
+                else
                 {
-                    MessageBox.Show("Error al confirmar venta: " + ex.Message);
+                    MessageBox.Show("Hubo un problema al registrar la venta.");
                 }
             }
-            else
+            catch (Exception ex)
             {
-                MessageBox.Show("Seleccione un cliente y agregue al menos un producto.");
+                MessageBox.Show("Error al confirmar venta: " + ex.Message);
             }
+        }
+
+        private List<VentaProducto> MapearCarritoAVentaProductos()
+        {
+            var ventaProductos = new List<VentaProducto>();
+            var gruposDeProductos = new Dictionary<Guid, int>();
+
+            foreach (var producto in _carrito)
+            {
+                if (gruposDeProductos.ContainsKey(producto.Id))
+                {
+                    gruposDeProductos[producto.Id]++;
+                }
+                else
+                {
+                    gruposDeProductos[producto.Id] = 1;
+                }
+            }
+
+            foreach (var par in gruposDeProductos)
+            {
+                ventaProductos.Add(new VentaProducto { IdProducto = par.Key, Cantidad = par.Value });
+            }
+
+            return ventaProductos;
         }
 
         private void ActualizarCarritoUI()
         {
-            dgvCarrito.DataSource = null;
-            dgvCarrito.DataSource = _carrito.Select(c => new
-            {
-                c.Producto.Descripcion,
-                c.Cantidad,
-                Precio = c.Producto.Precio,
-                Subtotal = c.Cantidad * c.Producto.Precio
-            }).ToList();
+            var tablaCarrito = new DataTable();
+            tablaCarrito.Columns.Add("Producto");
+            tablaCarrito.Columns.Add("Precio", typeof(double));
 
-            decimal subtotal = _carrito.Sum(c => c.Cantidad * c.Producto.Precio);
-            decimal descuento = CalcularDescuento();
-            decimal total = subtotal - descuento;
+            foreach (var item in _carrito)
+            {
+                tablaCarrito.Rows.Add(item.Nombre, item.Precio);
+            }
+
+            dgvCarrito.DataSource = tablaCarrito;
+
+            double subtotal = CalcularSubtotal();
+            double descuento = CalcularDescuento(subtotal);
+            double total = subtotal - descuento;
 
             lblSubtotal.Text = $"Subtotal: {subtotal:C}";
             lblDescuento.Text = $"Descuento: {descuento:C}";
             lblTotal.Text = $"Total: {total:C}";
         }
 
-        private decimal CalcularDescuento()
+        private double CalcularSubtotal()
         {
-            var totalElectro = _carrito
-                .Where(c => c.Producto.CategoriaId == 3)
-                .Sum(c => c.Cantidad * c.Producto.Precio);
+            double subtotal = 0;
+            foreach (var item in _carrito)
+            {
+                subtotal += item.Precio;
+            }
+            return subtotal;
+        }
 
-            if (totalElectro > 1_000_000m)
-                return totalElectro * 0.15m;
+        private double CalcularDescuento(double subtotal)
+        {           
+            if (subtotal > 1000000)
+            {
+                return subtotal * 0.15;
+            }
             return 0;
         }
     }
-
-    // Modelos auxiliares
-    public class Cliente { public int Id { get; set; } public string Nombre { get; set; } }
-    public class Producto { public int Id { get; set; } public string Descripcion { get; set; } public decimal Precio { get; set; } public int CategoriaId { get; set; } }
-    public class CartItem { public Producto Producto { get; set; } public int Cantidad { get; set; } }
-    public class Categoria { public int Id { get; } public string Descripcion { get; } public Categoria(int id, string desc) { Id = id; Descripcion = desc; } }
-    public class VentaDto { public int ClienteId { get; set; } public List<VentaItemDto> Items { get; set; } }
-    public class VentaItemDto { public int ProductoId { get; set; } public int Cantidad { get; set; } }
 }

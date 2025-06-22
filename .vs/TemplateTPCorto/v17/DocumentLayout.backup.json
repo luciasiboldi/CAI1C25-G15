@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|c:\\users\\tadeo zamora\\source\\repos\\cai1c25-g15\\templatetpcorto\\modifypersonform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\modifypersonform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|c:\\users\\tadeo zamora\\source\\repos\\cai1c25-g15\\templatetpcorto\\carritoform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\carritoform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|c:\\users\\tadeo zamora\\source\\repos\\cai1c25-g15\\templatetpcorto\\modifypersonform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\modifypersonform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|c:\\users\\tadeo zamora\\source\\repos\\cai1c25-g15\\templatetpcorto\\carritoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\carritoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|c:\\users\\tadeo zamora\\source\\repos\\cai1c25-g15\\templatetpcorto\\supervisorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A1A65A0D-8346-4FB0-B5E1-28E573A6CAC3}|Negocio\\Negocio.csproj|c:\\users\\tadeo zamora\\source\\repos\\cai1c25-g15\\negocio\\web\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1A65A0D-8346-4FB0-B5E1-28E573A6CAC3}|Negocio\\Negocio.csproj|solutionrelative:negocio\\web\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DF50A35-3AEF-461D-90B9-687B77B5746F}|Datos\\Datos.csproj|c:\\users\\tadeo zamora\\source\\repos\\cai1c25-g15\\datos\\web\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DF50A35-3AEF-461D-90B9-687B77B5746F}|Datos\\Datos.csproj|solutionrelative:datos\\web\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\templatetpcorto\\supervisorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\supervisorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\templatetpcorto\\formlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\formlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|c:\\users\\tadeo zamora\\source\\repos\\cai1c25-g15\\templatetpcorto\\supervisorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\supervisorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|c:\\users\\tadeo zamora\\source\\repos\\cai1c25-g15\\templatetpcorto\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,12 +34,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -54,66 +54,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ModifyPersonForm.cs",
-              "DocumentMoniker": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\ModifyPersonForm.cs",
-              "RelativeDocumentMoniker": "TemplateTPCorto\\ModifyPersonForm.cs",
-              "ToolTip": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\ModifyPersonForm.cs*",
-              "RelativeToolTip": "TemplateTPCorto\\ModifyPersonForm.cs*",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAswCAAAABtAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ProductoService.cs",
+              "DocumentMoniker": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\Negocio\\Web\\ProductoService.cs",
+              "RelativeDocumentMoniker": "Negocio\\Web\\ProductoService.cs",
+              "ToolTip": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\Negocio\\Web\\ProductoService.cs*",
+              "RelativeToolTip": "Negocio\\Web\\ProductoService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T19:43:04.469Z",
+              "WhenOpened": "2025-06-22T21:21:55.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\Datos\\Web\\Cliente.cs",
+              "RelativeDocumentMoniker": "Datos\\Web\\Cliente.cs",
+              "ToolTip": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\Datos\\Web\\Cliente.cs",
+              "RelativeToolTip": "Datos\\Web\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T20:54:26.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CarritoForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\CarritoForm.Designer.cs",
+              "RelativeDocumentMoniker": "TemplateTPCorto\\CarritoForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\CarritoForm.Designer.cs*",
+              "RelativeToolTip": "TemplateTPCorto\\CarritoForm.Designer.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T20:41:56.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\FormPrincipal.cs",
+              "RelativeDocumentMoniker": "TemplateTPCorto\\FormPrincipal.cs",
+              "ToolTip": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\FormPrincipal.cs",
+              "RelativeToolTip": "TemplateTPCorto\\FormPrincipal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T20:27:23.398Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ModifyPersonForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\ModifyPersonForm.Designer.cs",
-              "RelativeDocumentMoniker": "TemplateTPCorto\\ModifyPersonForm.Designer.cs",
-              "ToolTip": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\ModifyPersonForm.Designer.cs*",
-              "RelativeToolTip": "TemplateTPCorto\\ModifyPersonForm.Designer.cs*",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAowCEAAAAYAAAAAAAAAA==",
+              "Title": "CarritoForm.cs",
+              "DocumentMoniker": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\CarritoForm.cs",
+              "RelativeDocumentMoniker": "TemplateTPCorto\\CarritoForm.cs",
+              "ToolTip": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\CarritoForm.cs*",
+              "RelativeToolTip": "TemplateTPCorto\\CarritoForm.cs*",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAcwKUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T19:42:21.973Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SupervisorForm.cs",
-              "DocumentMoniker": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\SupervisorForm.cs",
-              "RelativeDocumentMoniker": "TemplateTPCorto\\SupervisorForm.cs",
-              "ToolTip": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\SupervisorForm.cs",
-              "RelativeToolTip": "TemplateTPCorto\\SupervisorForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T19:41:51.571Z",
+              "WhenOpened": "2025-06-22T20:26:57.442Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "SupervisorForm.cs [Dise\u00F1o]",
+              "Title": "SupervisorForm.cs",
               "DocumentMoniker": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\SupervisorForm.cs",
               "RelativeDocumentMoniker": "TemplateTPCorto\\SupervisorForm.cs",
-              "ToolTip": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\SupervisorForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "TemplateTPCorto\\SupervisorForm.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\SupervisorForm.cs",
+              "RelativeToolTip": "TemplateTPCorto\\SupervisorForm.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAcwJcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T19:41:47.215Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FormLogin.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\FormLogin.Designer.cs",
-              "RelativeDocumentMoniker": "TemplateTPCorto\\FormLogin.Designer.cs",
-              "ToolTip": "C:\\Users\\Tadeo Zamora\\source\\repos\\CAI1C25-G15\\TemplateTPCorto\\FormLogin.Designer.cs",
-              "RelativeToolTip": "TemplateTPCorto\\FormLogin.Designer.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAiwB8AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T22:39:29.307Z",
+              "WhenOpened": "2025-06-22T19:41:51.571Z",
               "EditorCaption": ""
             }
           ]

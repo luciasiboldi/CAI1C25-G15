@@ -1,0 +1,113 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Tadeo Zamora\\Source\\Repos\\CAI1C25-G15\\Negocio\\Negocio.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Tadeo Zamora\\Source\\Repos\\CAI1C25-G15\\Datos\\Datos.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tadeo Zamora\\Source\\Repos\\CAI1C25-G15\\Datos\\Datos.csproj",
+        "projectName": "Datos",
+        "projectPath": "C:\\Users\\Tadeo Zamora\\Source\\Repos\\CAI1C25-G15\\Datos\\Datos.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Tadeo Zamora\\Source\\Repos\\CAI1C25-G15\\Negocio\\Negocio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tadeo Zamora\\Source\\Repos\\CAI1C25-G15\\Negocio\\Negocio.csproj",
+        "projectName": "Negocio",
+        "projectPath": "C:\\Users\\Tadeo Zamora\\Source\\Repos\\CAI1C25-G15\\Negocio\\Negocio.csproj",
+        "packagesPath": "C:\\Users\\Tadeo Zamora\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tadeo Zamora\\Source\\Repos\\CAI1C25-G15\\Negocio\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "UsingMicrosoftNETSdk": false,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Tadeo Zamora\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Tadeo Zamora\\Source\\Repos\\CAI1C25-G15\\Datos\\Datos.csproj": {
+                "projectPath": "C:\\Users\\Tadeo Zamora\\Source\\Repos\\CAI1C25-G15\\Datos\\Datos.csproj"
+              },
+              "C:\\Users\\Tadeo Zamora\\Source\\Repos\\CAI1C25-G15\\Persistencia\\Persistencia.csproj": {
+                "projectPath": "C:\\Users\\Tadeo Zamora\\Source\\Repos\\CAI1C25-G15\\Persistencia\\Persistencia.csproj"
+              }
+            }
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\Tadeo Zamora\\Source\\Repos\\CAI1C25-G15\\Persistencia\\Persistencia.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tadeo Zamora\\Source\\Repos\\CAI1C25-G15\\Persistencia\\Persistencia.csproj",
+        "projectName": "Persistencia",
+        "projectPath": "C:\\Users\\Tadeo Zamora\\Source\\Repos\\CAI1C25-G15\\Persistencia\\Persistencia.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Tadeo Zamora\\Source\\Repos\\CAI1C25-G15\\Datos\\Datos.csproj": {
+                "projectPath": "C:\\Users\\Tadeo Zamora\\Source\\Repos\\CAI1C25-G15\\Datos\\Datos.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}

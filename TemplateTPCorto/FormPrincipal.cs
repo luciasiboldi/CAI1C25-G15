@@ -21,6 +21,21 @@ namespace TemplateTPCorto
             // Sólo habilita botones según perfil
             btnSupervisor.Enabled = (_idPerfil == "2");
             btnAdministrador.Enabled = (_idPerfil == "3");
+
+            this.Load += FormPrincipal_Load;
+        }
+
+        private void FormPrincipal_Load(object sender, EventArgs e)
+        {
+            if (_idPerfil == "1") // Perfil Operador
+            {
+                using (var f = new CarritoForm(_usuario))
+                {
+                    this.Visible = false;
+                    f.ShowDialog();
+                    this.Close(); // Cierra el form principal al cerrar el carrito
+                }
+            }
         }
 
         private void btnSupervisor_Click(object sender, EventArgs e)

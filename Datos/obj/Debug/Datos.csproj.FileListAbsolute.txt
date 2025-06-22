@@ -22,3 +22,25 @@ C:\Users\Nacho\Source\Repos\CAI1C25-G15\Datos\obj\Debug\Datos.csproj.AssemblyRef
 C:\Users\Nacho\Source\Repos\CAI1C25-G15\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
 C:\Users\Nacho\Source\Repos\CAI1C25-G15\Datos\obj\Debug\Datos.dll
 C:\Users\Nacho\Source\Repos\CAI1C25-G15\Datos\obj\Debug\Datos.pdb
+C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Datos\bin\Debug\Datos.dll.config
+C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Datos\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Datos\bin\Debug\System.Buffers.dll
+C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Datos\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Datos\bin\Debug\System.Memory.dll
+C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Datos\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Datos\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Datos\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Datos\bin\Debug\System.Text.Json.dll
+C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Datos\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Datos\bin\Debug\System.ValueTuple.dll
+C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Datos\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Datos\bin\Debug\System.Buffers.xml
+C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Datos\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Datos\bin\Debug\System.Memory.xml
+C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Datos\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Datos\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Datos\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Datos\bin\Debug\System.Text.Json.xml
+C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Datos\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Datos\bin\Debug\System.ValueTuple.xml
+C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Datos\obj\Debug\Datos.csproj.Up2Date
