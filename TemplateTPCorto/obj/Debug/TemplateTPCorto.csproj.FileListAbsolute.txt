@@ -120,6 +120,7 @@ C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\System.
 C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\System.Text.Json.xml
 C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\System.ValueTuple.xml
-C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\TemplateTPCorto\obj\Debug\TemplateTPCorto.csproj.SuggestedBindingRedirects.cache
 C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\Datos.dll.config
 C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\Persistencia.dll.config
+C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\Newtonsoft.Json.xml

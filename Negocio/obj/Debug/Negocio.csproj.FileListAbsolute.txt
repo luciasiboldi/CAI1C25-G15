@@ -65,3 +65,6 @@ C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Negocio\bin\Debug\System.Text.Enc
 C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Negocio\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Negocio\bin\Debug\Datos.dll.config
 C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Negocio\bin\Debug\Persistencia.dll.config
+C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Negocio\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Negocio\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Negocio\bin\Debug\Newtonsoft.Json.xml

@@ -7,6 +7,6 @@ namespace Datos.Web
     {
         public Guid IdCliente { get; set; }
         public List<VentaProducto> Productos { get; set; }
-        public string Usuario { get; set; }
+        public Guid IdUsuario { get; set; }
     }
 }
