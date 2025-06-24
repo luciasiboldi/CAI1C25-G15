@@ -125,3 +125,28 @@ C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\Persist
 C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\Negocio.dll.config
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\Newtonsoft.Json.dll
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\System.Buffers.dll
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\System.IO.Pipelines.dll
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\System.Memory.dll
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\System.Text.Json.dll
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\System.ValueTuple.dll
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\Datos.dll.config
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\Negocio.dll.config
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\Persistencia.dll.config
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\Newtonsoft.Json.xml
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\System.Buffers.xml
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\System.IO.Pipelines.xml
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\System.Memory.xml
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\System.Text.Json.xml
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\RC991FB\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\System.ValueTuple.xml
