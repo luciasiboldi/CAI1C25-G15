@@ -24,6 +24,16 @@ namespace Persistencia.WebService.Utils
         {
             var uri = rutaBase + url;
 
+            // Debug: mostrar información de la petición
+            string debugInfo = $"=== WEBHELPER DEBUG ===\n";
+            debugInfo += $"URL Base: {rutaBase}\n";
+            debugInfo += $"URL Relativa: {url}\n";
+            debugInfo += $"URL Completa: {uri}\n";
+            debugInfo += $"JSON Request: {jsonRequest}\n";
+            debugInfo += $"========================\n";
+
+            System.Diagnostics.Debug.WriteLine(debugInfo);
+
             var data = new StringContent(jsonRequest, Encoding.UTF8, "application/json");
 
             HttpResponseMessage response = httpClient.PostAsync(uri, data).Result;

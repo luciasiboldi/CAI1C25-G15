@@ -124,3 +124,4 @@ C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\Datos.d
 C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\Persistencia.dll.config
 C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\TemplateTPCorto\bin\Debug\Negocio.dll.config

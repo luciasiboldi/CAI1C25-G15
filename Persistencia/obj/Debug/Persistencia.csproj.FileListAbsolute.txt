@@ -68,3 +68,5 @@ C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Persistencia\bin\Debug\System.Tex
 C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Persistencia\bin\Debug\System.Text.Json.xml
 C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Persistencia\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Persistencia\bin\Debug\System.ValueTuple.xml
+C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Persistencia\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Tadeo Zamora\Source\Repos\CAI1C25-G15\Persistencia\bin\Debug\Newtonsoft.Json.xml

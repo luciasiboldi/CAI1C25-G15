@@ -1,5 +1,6 @@
-using Datos.Ventas;
+﻿using Datos.Ventas;
 using Newtonsoft.Json;
+using Persistencia.WebService.Utils;
 using System;
 using System.Net.Http;
 
@@ -8,32 +9,52 @@ namespace Persistencia
     public class VentaPersistencia
     {
         private readonly Guid idUsuario = new Guid("784c07f2-2b26-4973-9235-4064e94832b5");
+        private readonly Guid idClientePrueba = new Guid("d2541fe1-681c-426d-bb87-05479efdf51f");
 
-        public string agregarVenta(RegistrarVenta registrarVenta)
+        public string agregarVenta(RegistrarVenta original)
         {
-            // El usuario no lo elige, lo pone el sistema
-            registrarVenta.IdUsuario = idUsuario;
-
-            // CamelCase para que lo entienda el WebService
-            var settings = new JsonSerializerSettings
+            try
             {
-                ContractResolver = new Newtonsoft.Json.Serialization.CamelCasePropertyNamesContractResolver()
-            };
+                // Crear SIEMPRE un nuevo objeto con los valores correctos
+                var registrarVenta = new RegistrarVenta
+                {
+                    IdCliente = idClientePrueba, // El de prueba
+                    IdUsuario = idUsuario, // El tuyo
+                    IdProducto = original.IdProducto,
+                    Cantidad = original.Cantidad
+                };
 
-            var jsonRequest = JsonConvert.SerializeObject(cargaVenta, settings);
+                var settings = new JsonSerializerSettings
+                {
+                    ContractResolver = new Newtonsoft.Json.Serialization.CamelCasePropertyNamesContractResolver()
+                };
 
-            // Solo para debug, ver el JSON en el Output
-            System.Diagnostics.Debug.WriteLine("JSON enviado:\n" + jsonRequest);
+                var jsonRequest = JsonConvert.SerializeObject(registrarVenta, settings);
 
-            HttpResponseMessage response = WebHelper.Post("/api/Venta/AgregarVenta", jsonRequest);
-            string contenidoRespuesta = response.Content.ReadAsStringAsync().Result;
+                string endpoint = "/api/Venta/AgregarVenta";
+                var uri = "https://cai-tp.azurewebsites.net" + endpoint;
 
-            if (!response.IsSuccessStatusCode)
-            {
-                return "ERROR\n" + contenidoRespuesta + "\n\nJSON enviado:\n" + jsonRequest;
+                HttpResponseMessage response = WebHelper.Post(endpoint, jsonRequest);
+                string contenidoRespuesta = response.Content.ReadAsStringAsync().Result;
+
+                string debugInfo = $"URL: {uri}\n\n" +
+                                   $"JSON enviado:\n{jsonRequest}\n\n" +
+                                   $"IdCliente usado: {registrarVenta.IdCliente}\n" +
+                                   $"IdUsuario usado: {registrarVenta.IdUsuario}\n" +
+                                   $"Status Code: {response.StatusCode}\n\n" +
+                                   $"Respuesta:\n{contenidoRespuesta}";
+
+                if (!response.IsSuccessStatusCode)
+                {
+                    return "ERROR\n" + debugInfo;
+                }
+
+                return "ÉXITO\n" + debugInfo;
             }
-
-            return contenidoRespuesta;
+            catch (Exception ex)
+            {
+                return $"ERROR - EXCEPCIÓN\nMensaje: {ex.Message}\nStackTrace: {ex.StackTrace}";
+            }
         }
     }
 }

@@ -1,11 +1,14 @@
 ﻿using Datos.Web;
-using Negocio.Web;
 using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Datos.Ventas;
+using Persistencia;
+using System.Net.Http;
+using Newtonsoft.Json;
 
 namespace TemplateTPCorto
 {
@@ -54,7 +57,7 @@ namespace TemplateTPCorto
         {
             try
             {
-                var todosLosClientes = await ApiClient.GetClientes();
+                var todosLosClientes = ClientePersistencia.GetClientes();
                 // Re-introducimos el filtro para mostrar solo clientes activos
                 _clientes = todosLosClientes.Where(c => c.FechaBaja == null).ToList();
 
@@ -73,7 +76,7 @@ namespace TemplateTPCorto
             try
             {
                 // 1. Cargar todos los productos desde la API
-                _todosLosProductos = await ApiClient.TraerTodosLosProductos();
+                _todosLosProductos = ProductoPersistencia.TraerTodosLosProductos();
 
                 // 2. Crear la lista de categorías fija
                 _categorias = new List<Categoria>
@@ -242,7 +245,7 @@ namespace TemplateTPCorto
             {
                 try
                 {
-                    var cliente = await ApiClient.GetCliente(clienteId);
+                    var cliente = ClientePersistencia.GetCliente(clienteId);
                     if (cliente != null)
                     {
                         cmbClientes.SelectedValue = cliente.IdCliente;
@@ -263,7 +266,7 @@ namespace TemplateTPCorto
             }
         }
 
-        private async void btnConfirmarVenta_Click(object sender, EventArgs e)
+        private void btnConfirmarVenta_Click(object sender, EventArgs e)
         {
             if (cmbClientes.SelectedValue == null)
             {
@@ -276,10 +279,6 @@ namespace TemplateTPCorto
                 return;
             }
 
-            // Usamos el ID de cliente y de usuario fijos para el entorno de pruebas.
-            var idCliente = Guid.Parse("3fa85f64-5717-4562-b3fc-2c963f66afa6");
-            var idUsuario = Guid.Parse("3fa85f64-5717-4562-b3fc-2c963f66afa6");
-
             // Agrupar productos en el carrito para obtener las cantidades
             var productosAgrupados = _carrito
                 .GroupBy(p => p.Id)
@@ -287,27 +286,25 @@ namespace TemplateTPCorto
                 .ToList();
 
             int ventasExitosas = 0;
+            VentaPersistencia ventaPersistencia = new VentaPersistencia();
             foreach (var item in productosAgrupados)
             {
-                var ventaInput = new VentaProductoInput
+                var nuevaVenta = new RegistrarVenta
                 {
-                    IdCliente = idCliente, // Se asigna el ID fijo
-                    IdUsuario = idUsuario,
+                    IdCliente = (Guid)cmbClientes.SelectedValue, // Este valor será sobrescrito por el método
                     IdProducto = item.IdProducto,
                     Cantidad = item.Cantidad
+                    // El IdUsuario lo setea internamente la clase persistencia
                 };
 
-                try
+                string respuesta = ventaPersistencia.agregarVenta(nuevaVenta);
+                if (respuesta.StartsWith("ÉXITO"))
                 {
-                    bool exito = await ApiClient.AgregarVenta(ventaInput);
-                    if (exito)
-                    {
-                        ventasExitosas++;
-                    }
+                    ventasExitosas++;
                 }
-                catch (Exception ex)
+                else
                 {
-                    MessageBox.Show($"Error al registrar la venta para el producto ID {item.IdProducto}: {ex.Message}", "Error de Venta", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show($"Error al registrar la venta para el producto ID {item.IdProducto}:\n\n{respuesta}", "Error de Venta", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
             }
 

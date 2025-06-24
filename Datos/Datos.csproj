@@ -78,6 +78,7 @@
     <Compile Include="Persona.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Rol.cs" />
+    <Compile Include="Ventas\RegistrarVenta.cs" />
     <Compile Include="Web\Categoria.cs" />
     <Compile Include="Web\Cliente.cs" />
     <Compile Include="Web\Producto.cs" />
